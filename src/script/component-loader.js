@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', async () => {
-  const includeEls = Array.from(document.querySelectorAll('[data-include]'));
-  await Promise.all(includeEls.map(async (el) => {
-    const url = el.getAttribute('data-include');
-    try {
-      const res = await fetch(url);
-      const html = await res.text();
-      el.outerHTML = html;
-    } catch (e) {
-      console.error('Failed to load component:', url, e);
+    const includes = document.querySelectorAll('[data-include]');
+    for (const el of includes) {
+        const file = el.getAttribute('data-include');
+        const response = await fetch(file);
+        if (response.ok) {
+            el.innerHTML = await response.text();
+        } else {
+            el.innerHTML = `<p style="color:red;">couldn't load${file}</p>`;
+        }
     }
-  }));
-  document.dispatchEvent(new CustomEvent('componentsLoaded'));
+    document.dispatchEvent(new Event('componentsLoaded'));
 });
