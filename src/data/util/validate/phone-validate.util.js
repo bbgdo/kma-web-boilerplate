@@ -3,6 +3,6 @@ import { countryPhoneCodeFromCountryNameUtil } from "../helper/country-phone-cod
 import { isString } from 'lodash-es';
 
 export const phoneValidateUtil = (phone, countryName) => {
-    if(!isString(phone) || !isString(countryName) || phone !== '' || countryName !== '') return false;
+    if(!isString(phone) || !isString(countryName) || phone === '' || countryName === '') return false;
     return isValidPhoneNumber(phone) && phone.includes('+'+countryPhoneCodeFromCountryNameUtil(countryName));
 };

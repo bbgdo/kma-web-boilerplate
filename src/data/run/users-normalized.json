@@ -23,7 +23,7 @@
     "picture_thumbnail": null,
     "id": "fgesrg456dsf234c1",
     "favorite": true,
-    "course": "Art",
+    "course": "English",
     "bg_color": "#1f75cb",
     "note": ""
   },
@@ -51,7 +51,7 @@
     "picture_thumbnail": null,
     "id": "FN19068929566",
     "favorite": false,
-    "course": "Computer Science",
+    "course": "Art",
     "bg_color": "#dface7",
     "note": ""
   },
@@ -79,7 +79,7 @@
     "picture_thumbnail": null,
     "id": "FN02064618043",
     "favorite": false,
-    "course": "English",
+    "course": "Computer Science",
     "bg_color": "#dface7",
     "note": "Old lady with a cats"
   },
@@ -107,7 +107,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/28.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Statistics",
+    "course": "Computer Science",
     "bg_color": null,
     "note": ""
   },
@@ -135,7 +135,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg",
     "id": "PPS2340626T",
     "favorite": false,
-    "course": "Dancing",
+    "course": "Chess",
     "bg_color": null,
     "note": ""
   },
@@ -163,7 +163,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/4.jpg",
     "id": "TFN505504341",
     "favorite": false,
-    "course": "Medicine",
+    "course": "Chess",
     "bg_color": null,
     "note": ""
   },
@@ -191,7 +191,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg",
     "id": "SSN769-88-9330",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "Chess",
     "bg_color": null,
     "note": ""
   },
@@ -275,7 +275,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/94.jpg",
     "id": "TFN386597027",
     "favorite": false,
-    "course": "Mathematics",
+    "course": "Art",
     "bg_color": null,
     "note": ""
   },
@@ -331,7 +331,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/51.jpg",
     "id": "AVS756.2023.5649.57",
     "favorite": false,
-    "course": "Art",
+    "course": "Statistics",
     "bg_color": null,
     "note": ""
   },
@@ -359,7 +359,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Computer Science",
+    "course": "English",
     "bg_color": null,
     "note": ""
   },
@@ -387,7 +387,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/80.jpg",
     "id": "HETUNaNNA760undefined",
     "favorite": false,
-    "course": "Art",
+    "course": "Law",
     "bg_color": null,
     "note": ""
   },
@@ -415,7 +415,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "Biology",
     "bg_color": null,
     "note": ""
   },
@@ -443,7 +443,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/14.jpg",
     "id": "DNI63719733-L",
     "favorite": false,
-    "course": "Dancing",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -471,7 +471,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/87.jpg",
     "id": "FN28045612378",
     "favorite": false,
-    "course": "Computer Science",
+    "course": "English",
     "bg_color": null,
     "note": ""
   },
@@ -499,7 +499,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/87.jpg",
     "id": "FN09035238279",
     "favorite": false,
-    "course": "Dancing",
+    "course": "Medicine",
     "bg_color": null,
     "note": ""
   },
@@ -527,7 +527,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/43.jpg",
     "id": "null",
     "favorite": false,
-    "course": "English",
+    "course": "Chess",
     "bg_color": null,
     "note": ""
   },
@@ -555,7 +555,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/93.jpg",
     "id": "HETUNaNNA402undefined",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "English",
     "bg_color": null,
     "note": ""
   },
@@ -583,7 +583,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg",
     "id": "CPR301293-2636",
     "favorite": false,
-    "course": "Mathematics",
+    "course": "Computer Science",
     "bg_color": null,
     "note": ""
   },
@@ -611,7 +611,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/53.jpg",
     "id": "DNI04671126-X",
     "favorite": false,
-    "course": "Statistics",
+    "course": "Art",
     "bg_color": null,
     "note": ""
   },
@@ -639,7 +639,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/49.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Computer Science",
+    "course": "Medicine",
     "bg_color": null,
     "note": ""
   },
@@ -667,7 +667,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/78.jpg",
     "id": "SSN273-52-2514",
     "favorite": false,
-    "course": "Medicine",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -695,7 +695,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg",
     "id": "null",
     "favorite": false,
-    "course": "English",
+    "course": "Art",
     "bg_color": null,
     "note": ""
   },
@@ -723,7 +723,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/20.jpg",
     "id": "INSEE1NNaN94113447 74",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "Law",
     "bg_color": null,
     "note": ""
   },
@@ -779,7 +779,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg",
     "id": "FN21117225647",
     "favorite": false,
-    "course": "Mathematics",
+    "course": "Art",
     "bg_color": null,
     "note": ""
   },
@@ -807,7 +807,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "Biology",
     "bg_color": null,
     "note": ""
   },
@@ -835,7 +835,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/19.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Computer Science",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -863,7 +863,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg",
     "id": "HETUNaNNA728undefined",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "English",
     "bg_color": null,
     "note": ""
   },
@@ -891,7 +891,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg",
     "id": "BSN26586375",
     "favorite": false,
-    "course": "Biology",
+    "course": "Dancing",
     "bg_color": null,
     "note": ""
   },
@@ -919,7 +919,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
     "id": "FN03109315264",
     "favorite": false,
-    "course": "English",
+    "course": "Law",
     "bg_color": null,
     "note": ""
   },
@@ -975,7 +975,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg",
     "id": "PPS7847438T",
     "favorite": false,
-    "course": "Chess",
+    "course": "Medicine",
     "bg_color": null,
     "note": ""
   },
@@ -1003,7 +1003,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/94.jpg",
     "id": "INSEE1NNaN34394721 96",
     "favorite": false,
-    "course": "Chess",
+    "course": "Physics",
     "bg_color": null,
     "note": ""
   },
@@ -1031,7 +1031,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/32.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Physics",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -1059,7 +1059,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/57.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Biology",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -1087,7 +1087,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/53.jpg",
     "id": "AVS756.6671.9396.83",
     "favorite": false,
-    "course": "Mathematics",
+    "course": "Statistics",
     "bg_color": null,
     "note": ""
   },
@@ -1115,7 +1115,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg",
     "id": "DNI23347090-X",
     "favorite": false,
-    "course": "Dancing",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -1143,7 +1143,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg",
     "id": "SSN807-33-0374",
     "favorite": false,
-    "course": "Biology",
+    "course": "Chess",
     "bg_color": null,
     "note": ""
   },
@@ -1171,7 +1171,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg",
     "id": "BSN59554936",
     "favorite": false,
-    "course": "Art",
+    "course": "Computer Science",
     "bg_color": null,
     "note": ""
   },
@@ -1199,7 +1199,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/69.jpg",
     "id": "SSN375-57-5719",
     "favorite": false,
-    "course": "English",
+    "course": "Law",
     "bg_color": null,
     "note": ""
   },
@@ -1227,7 +1227,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Mathematics",
+    "course": "Statistics",
     "bg_color": null,
     "note": ""
   },
@@ -1255,7 +1255,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg",
     "id": "INSEE1NNaN65034787 26",
     "favorite": false,
-    "course": "Chess",
+    "course": "Law",
     "bg_color": null,
     "note": ""
   },
@@ -1283,7 +1283,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/24.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Mathematics",
+    "course": "Chemistry",
     "bg_color": null,
     "note": ""
   },
@@ -1311,7 +1311,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/4.jpg",
     "id": "AVS756.7424.4611.08",
     "favorite": false,
-    "course": "Law",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -1339,7 +1339,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg",
     "id": "BSN84507586",
     "favorite": false,
-    "course": "Medicine",
+    "course": "Chess",
     "bg_color": null,
     "note": ""
   },
@@ -1367,7 +1367,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
     "id": "null",
     "favorite": false,
-    "course": "Art",
+    "course": "Mathematics",
     "bg_color": null,
     "note": ""
   },
@@ -1395,7 +1395,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/3.jpg",
     "id": "CPR310383-9581",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "Law",
     "bg_color": null,
     "note": ""
   },
@@ -1423,7 +1423,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg",
     "id": "SSN891-26-1846",
     "favorite": false,
-    "course": "Chemistry",
+    "course": "Dancing",
     "bg_color": null,
     "note": ""
   },
@@ -1451,7 +1451,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/28.jpg",
     "id": "CPR230364-8018",
     "favorite": false,
-    "course": "Biology",
+    "course": "Physics",
     "bg_color": null,
     "note": ""
   },
@@ -1479,7 +1479,7 @@
     "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/57.jpg",
     "id": "INSEE1NNaN84707229 61",
     "favorite": false,
-    "course": "English",
+    "course": "Art",
     "bg_color": null,
     "note": ""
   }

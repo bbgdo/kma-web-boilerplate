@@ -19,7 +19,7 @@ export const userValidateDataUtil = (data) => {
         user = {
             ...user,
             email: emailValidateUtil(user?.email) ? user?.email : markInvalid(user.id),
-            phone: phoneValidateUtil(user?.phone) ? user?.phone : markInvalid(user.id),
+            phone: phoneValidateUtil(user?.phone, user?.country) ? user?.phone : markInvalid(user.id),
             age: isNumber(user?.age) ? user?.age : markInvalid(user.id),
             gender: startsWithCapitalChar(user?.gender) ? user?.gender : markInvalid(user.id),
             note: startsWithCapitalChar(user?.note) ? user?.note : markInvalid(user.id),
@@ -32,7 +32,7 @@ export const userValidateDataUtil = (data) => {
     //eslint-disable-next-line
     console.log(`Invalid fields were in: [${Array.from(changedIds).join(', ')}]`);
 
-    return {changedIds, users: users};
+    return {changedIds: Array.from(changedIds), users: users};
 };
 
 export const userValidateDataAndSave = async (data, filename = 'users-validated.json', baseUrl = import.meta.url ) => {

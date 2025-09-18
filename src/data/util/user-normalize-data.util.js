@@ -5,7 +5,7 @@ import { isNil, isObject } from 'lodash-es';
 import { yearsPassedUtil } from './helper/years-passed.util.js';
 import { getRandomCourseUtil } from './helper/get-random-course.util.js';
 import { UserDataClass } from '../class/user-data.class.js';
-import { capitalizeFirstCharUtil } from "./helper/capiralize-first-char.util.js";
+import { capitalizeFirstCharUtil } from "./helper/capitalize-first-char.util.js";
 import { phoneNormalizeUtil } from "./normalize/phone-normalization.util.js";
 
 const normalizeName = (user) => {
