@@ -2,38 +2,40 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { writeFile } from 'fs/promises';
 import { isNil, isObject } from 'lodash-es';
-import { yearsPassedUtil } from './years-passed.util.js';
-import { getRandomCourseUtil } from './normalize/get-random-course.util.js';
+import { yearsPassedUtil } from './helper/years-passed.util.js';
+import { getRandomCourseUtil } from './helper/get-random-course.util.js';
 import { UserDataClass } from '../class/user-data.class.js';
+import { capitalizeFirstCharUtil } from "./helper/capiralize-first-char.util.js";
+import { phoneNormalizeUtil } from "./normalize/phone-normalization.util.js";
 
 const normalizeName = (user) => {
     if(!isNil(user?.name)) {
         return {
-            title: user.name.title,
-            full_name: user.name.first + ' ' + user.name.last,
+            title: capitalizeFirstCharUtil(user.name.title),
+            full_name: capitalizeFirstCharUtil(user.name.first) + ' ' + capitalizeFirstCharUtil(user.name.last),
         };
     }
     return {
-        title: user?.title ?? null,
-        full_name: user?.full_name ?? null,
+        title: capitalizeFirstCharUtil(user.title) ?? null,
+        full_name: capitalizeFirstCharUtil(user.full_name) ?? null,
     };
 };
 
 const normalizeLocation = (user) => {
     if(!isNil(user?.location)) {
         return {
-            city: user.location.city,
-            state: user.location.state,
-            country: user.location.country,
+            city: capitalizeFirstCharUtil(user.location.city),
+            state: capitalizeFirstCharUtil(user.location.state),
+            country: capitalizeFirstCharUtil(user.location.country),
             coordinates: user.location.coordinates,
             timezone: user.location.timezone,
             postcode: user.location.postcode,
         };
     }
     return {
-        city: user?.city ?? null,
-        state: user?.state ?? null,
-        country: user?.country ?? null,
+        city: capitalizeFirstCharUtil(user?.city) ?? null,
+        state: capitalizeFirstCharUtil(user?.state) ?? null,
+        country: capitalizeFirstCharUtil(user?.country) ?? null,
         coordinates: user?.coordinates ?? null,
         timezone: user?.timezone ?? null,
         postcode: user?.postcode ?? null,
@@ -81,22 +83,33 @@ const normalizeId = (user) => {
     };
 };
 
+const normalizePhone = (user) => {
+    if(!isNil(user?.location)) {
+        return {
+            phone: phoneNormalizeUtil(user.phone, user.location?.country)
+        }
+    }
+    return {
+        phone: phoneNormalizeUtil(user?.phone, user?.country) ?? null,
+    }
+};
+
 export const userNormalizeDataUtil = (data) => {
     const users = [];
     data.forEach((user) => {
         const normalized = new UserDataClass({
-            gender: user.gender,
-            email: user.email,
-            phone: user.phone,
+            gender: capitalizeFirstCharUtil(user?.gender) ?? null,
+            email: user?.email ?? null,
+            ...normalizePhone(user),
             ...normalizeName(user),
             ...normalizeLocation(user),
             ...normalizeBDateAndAge(user),
             ...normalizePicture(user),
             ...normalizeId(user),
             course: getRandomCourseUtil(),
-            favorite: user.favorite,
-            bg_color: user.bg_color,
-            note: user.note,
+            favorite: user?.favorite ?? false,
+            bg_color: user?.bg_color ?? null,
+            note: capitalizeFirstCharUtil(user?.note) ?? null,
         });
         users.push(normalized);
     });
