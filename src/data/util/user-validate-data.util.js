@@ -38,4 +38,4 @@ export const userValidateDataUtil = (data) => {
 export const userValidateDataAndSave = async (data, filename = 'users-validated.json', baseUrl = import.meta.url ) => {
     const outPath = path.join(path.dirname(fileURLToPath(baseUrl)), filename);
     await writeFile(outPath, JSON.stringify(userValidateDataUtil(data), null, 2));
-}
+};

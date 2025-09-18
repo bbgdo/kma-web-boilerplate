@@ -87,11 +87,11 @@ const normalizePhone = (user) => {
     if(!isNil(user?.location)) {
         return {
             phone: phoneNormalizeUtil(user.phone, user.location?.country)
-        }
+        };
     }
     return {
         phone: phoneNormalizeUtil(user?.phone, user?.country) ?? null,
-    }
+    };
 };
 
 export const userNormalizeDataUtil = (data) => {

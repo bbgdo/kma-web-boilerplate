@@ -9,4 +9,4 @@ export const emailValidateUtil = (email) => {
         console.error('Invalid email:', email);
     }
     return emailIsValid;
-}
+};

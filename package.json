@@ -6,9 +6,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src/* --ext .js"
+    "lint": "eslint src/**/*.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/eslint-parser": "^7.28.4",
+    "@babel/plugin-syntax-import-attributes": "^7.27.1",
     "eslint": "^7.18.0",
     "eslint-plugin-import": "^2.22.1",
     "i18n-iso-countries": "^7.14.0",

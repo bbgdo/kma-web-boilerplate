@@ -1,6 +1,6 @@
 import { isNil } from 'lodash-es';
 
-export const userSearchUtil = (users, value) => {
+export const usersSearchUtil = (users, value) => {
     if(isNil(value) || value === '' ) return users;
     const strValue = String(value).trim();
 

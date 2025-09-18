@@ -2,10 +2,10 @@ import { isString } from "lodash-es";
 
 export const startsWithCapitalChar = (str) => {
     if (!isString(str) || str === '') {
-        return false
+        return false;
     }
     return str.charAt(0) === str.charAt(0).toUpperCase();
-}
+};
 
 export const startsWithCapitalCharEveryWord = (str) => {
     if (!isString(str) || str === '') {
@@ -13,5 +13,5 @@ export const startsWithCapitalCharEveryWord = (str) => {
     }
 
     return str.split(/\s+/).every((word) => startsWithCapitalChar(word));
-}
+};
 
