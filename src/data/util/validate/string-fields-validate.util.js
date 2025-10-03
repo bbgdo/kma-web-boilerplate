@@ -4,7 +4,7 @@ export const startsWithCapitalChar = (str) => {
     if (!isString(str) || str === '') {
         return false;
     }
-    return str.charAt(0) === str.charAt(0).toUpperCase();
+    return str.charAt(0) === str.charAt(0).toLocaleUpperCase();
 };
 
 export const startsWithCapitalCharEveryWord = (str) => {
