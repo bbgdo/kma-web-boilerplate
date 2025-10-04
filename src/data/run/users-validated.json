@@ -3,7 +3,6 @@
     "fgesrg456dsf234c1",
     "FN19068929566",
     "FN02064618043",
-    "null",
     "PPS2340626T",
     "TFN505504341",
     "SSN769-88-9330",
@@ -128,34 +127,6 @@
     {
       "gender": "Male",
       "title": "Mr",
-      "full_name": "Norbert Weishaupt",
-      "city": "Rhön-Grabfeld",
-      "state": "Mecklenburg-Vorpommern",
-      "country": "Germany",
-      "postcode": 52640,
-      "coordinates": {
-        "latitude": "-42.1817",
-        "longitude": "-152.1685"
-      },
-      "timezone": {
-        "offset": "+9:30",
-        "description": "Adelaide, Darwin"
-      },
-      "email": "norbert.weishaupt@example.com",
-      "b_date": "1956-12-23T19:09:19.602Z",
-      "age": 65,
-      "phone": "+49798291509",
-      "picture_large": "https://randomuser.me/api/portraits/men/28.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/28.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Computer Science",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Male",
-      "title": "Mr",
       "full_name": "Claude Payne",
       "city": "Skerries",
       "state": "Longford",
@@ -267,34 +238,6 @@
     },
     {
       "gender": "Female",
-      "title": "Ms",
-      "full_name": "Tessa Möllmann",
-      "city": "Hohenstein-Ernstthal",
-      "state": "Bayern",
-      "country": "Germany",
-      "postcode": 87827,
-      "coordinates": {
-        "latitude": "61.8456",
-        "longitude": "67.6500"
-      },
-      "timezone": {
-        "offset": "+4:30",
-        "description": "Kabul"
-      },
-      "email": "tessa.mollmann@example.com",
-      "b_date": "1986-05-08T09:19:12.021Z",
-      "age": 35,
-      "phone": "+493587950096",
-      "picture_large": "https://randomuser.me/api/portraits/women/8.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/8.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Biology",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
       "title": "Miss",
       "full_name": "Maxine James",
       "city": "Brisbane",
@@ -318,34 +261,6 @@
       "id": "TFN386597027",
       "favorite": false,
       "course": "Art",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
-      "title": "Mrs",
-      "full_name": "Mestan Pektemek",
-      "city": "İstanbul",
-      "state": "Karaman",
-      "country": "Turkey",
-      "postcode": 81972,
-      "coordinates": {
-        "latitude": "16.6664",
-        "longitude": "-0.4745"
-      },
-      "timezone": {
-        "offset": "+8:00",
-        "description": "Beijing, Perth, Singapore, Hong Kong"
-      },
-      "email": "mestan.pektemek@example.com",
-      "b_date": "1975-08-20T23:05:13.239Z",
-      "age": 46,
-      "phone": null,
-      "picture_large": "https://randomuser.me/api/portraits/women/71.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Statistics",
       "bg_color": null,
       "note": null
     },
@@ -378,34 +293,6 @@
       "note": null
     },
     {
-      "gender": "Male",
-      "title": "Mr",
-      "full_name": "Deniz Yıldırım",
-      "city": "Bolu",
-      "state": "Ardahan",
-      "country": "Turkey",
-      "postcode": 12234,
-      "coordinates": {
-        "latitude": "-42.0389",
-        "longitude": "-86.4817"
-      },
-      "timezone": {
-        "offset": "+6:00",
-        "description": "Almaty, Dhaka, Colombo"
-      },
-      "email": "deniz.yildirim@example.com",
-      "b_date": "1981-12-12T17:49:30.416Z",
-      "age": 40,
-      "phone": null,
-      "picture_large": "https://randomuser.me/api/portraits/men/99.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "English",
-      "bg_color": null,
-      "note": null
-    },
-    {
       "gender": "Female",
       "title": "Ms",
       "full_name": "Matilda Aalto",
@@ -430,34 +317,6 @@
       "id": "HETUNaNNA760undefined",
       "favorite": false,
       "course": "Law",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
-      "title": "Miss",
-      "full_name": "Lucy Walker",
-      "city": "Nelson",
-      "state": "Southland",
-      "country": "New Zealand",
-      "postcode": 82655,
-      "coordinates": {
-        "latitude": "-27.4724",
-        "longitude": "132.5136"
-      },
-      "timezone": {
-        "offset": "+4:30",
-        "description": "Kabul"
-      },
-      "email": "lucy.walker@example.com",
-      "b_date": "1967-07-08T22:51:02.434Z",
-      "age": 54,
-      "phone": null,
-      "picture_large": "https://randomuser.me/api/portraits/women/6.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Biology",
       "bg_color": null,
       "note": null
     },
@@ -548,34 +407,6 @@
     {
       "gender": "Female",
       "title": "Miss",
-      "full_name": "Adeline Weigand",
-      "city": "Fürth",
-      "state": "Mecklenburg-Vorpommern",
-      "country": "Germany",
-      "postcode": 80819,
-      "coordinates": {
-        "latitude": "-41.5020",
-        "longitude": "-36.1579"
-      },
-      "timezone": {
-        "offset": "+1:00",
-        "description": "Brussels, Copenhagen, Madrid, Paris"
-      },
-      "email": "adeline.weigand@example.com",
-      "b_date": "1971-06-08T09:57:13.975Z",
-      "age": 50,
-      "phone": "+495961926541",
-      "picture_large": "https://randomuser.me/api/portraits/women/43.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/43.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Chess",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
-      "title": "Miss",
       "full_name": "Oona Kokko",
       "city": "Iisalmi",
       "state": "Central Ostrobothnia",
@@ -658,34 +489,6 @@
       "note": null
     },
     {
-      "gender": "Female",
-      "title": "Mrs",
-      "full_name": "آدرینا صدر",
-      "city": "ارومیه",
-      "state": "کرمان",
-      "country": "Iran",
-      "postcode": 48391,
-      "coordinates": {
-        "latitude": "-5.2616",
-        "longitude": "-95.9339"
-      },
-      "timezone": {
-        "offset": "-7:00",
-        "description": "Mountain Time (US & Canada)"
-      },
-      "email": "adryn.sdr@example.com",
-      "b_date": "1977-01-03T08:07:23.555Z",
-      "age": 44,
-      "phone": null,
-      "picture_large": "https://randomuser.me/api/portraits/women/49.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/49.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Medicine",
-      "bg_color": null,
-      "note": null
-    },
-    {
       "gender": "Male",
       "title": "Mr",
       "full_name": "Joe Mitchell",
@@ -710,34 +513,6 @@
       "id": "SSN273-52-2514",
       "favorite": false,
       "course": "Mathematics",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
-      "title": "Mrs",
-      "full_name": "Maeva Walker",
-      "city": "Cumberland",
-      "state": "Saskatchewan",
-      "country": "Canada",
-      "postcode": "Z6T 3E6",
-      "coordinates": {
-        "latitude": "-31.2136",
-        "longitude": "16.8355"
-      },
-      "timezone": {
-        "offset": "+4:00",
-        "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
-      },
-      "email": "maeva.walker@example.com",
-      "b_date": "1963-04-17T16:40:45.773Z",
-      "age": 58,
-      "phone": "+16368573801",
-      "picture_large": "https://randomuser.me/api/portraits/women/61.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Art",
       "bg_color": null,
       "note": null
     },
@@ -822,62 +597,6 @@
       "id": "FN21117225647",
       "favorite": false,
       "course": "Art",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Male",
-      "title": "Mr",
-      "full_name": "آراد زارعی",
-      "city": "اردبیل",
-      "state": "کرمان",
-      "country": "Iran",
-      "postcode": 84902,
-      "coordinates": {
-        "latitude": "57.8145",
-        "longitude": "-146.6983"
-      },
-      "timezone": {
-        "offset": "+5:45",
-        "description": "Kathmandu"
-      },
-      "email": "ard.zraay@example.com",
-      "b_date": "1989-02-12T18:41:45.531Z",
-      "age": 32,
-      "phone": "+982939614780",
-      "picture_large": "https://randomuser.me/api/portraits/men/48.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Biology",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
-      "title": "Miss",
-      "full_name": "آوینا نجاتی",
-      "city": "قائم‌شهر",
-      "state": "مرکزی",
-      "country": "Iran",
-      "postcode": 21415,
-      "coordinates": {
-        "latitude": "-51.3076",
-        "longitude": "-146.1861"
-      },
-      "timezone": {
-        "offset": "+11:00",
-        "description": "Magadan, Solomon Islands, New Caledonia"
-      },
-      "email": "awyn.njty@example.com",
-      "b_date": "1968-11-13T05:41:01.302Z",
-      "age": 53,
-      "phone": "+984944129055",
-      "picture_large": "https://randomuser.me/api/portraits/women/19.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/19.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Mathematics",
       "bg_color": null,
       "note": null
     },
@@ -1050,62 +769,6 @@
       "note": null
     },
     {
-      "gender": "Male",
-      "title": "Mr",
-      "full_name": "عرشيا كامياران",
-      "city": "اهواز",
-      "state": "گلستان",
-      "country": "Iran",
-      "postcode": 71779,
-      "coordinates": {
-        "latitude": "41.1604",
-        "longitude": "82.3069"
-      },
-      "timezone": {
-        "offset": "+5:00",
-        "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
-      },
-      "email": "aarshy.kmyrn@example.com",
-      "b_date": "1965-12-08T22:45:18.878Z",
-      "age": 56,
-      "phone": "+988331098334",
-      "picture_large": "https://randomuser.me/api/portraits/men/32.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/32.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Mathematics",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Male",
-      "title": "Mr",
-      "full_name": "Esat Köylüoğlu",
-      "city": "Giresun",
-      "state": "Konya",
-      "country": "Turkey",
-      "postcode": 50870,
-      "coordinates": {
-        "latitude": "-44.0832",
-        "longitude": "-64.5925"
-      },
-      "timezone": {
-        "offset": "+5:45",
-        "description": "Kathmandu"
-      },
-      "email": "esat.koyluoglu@example.com",
-      "b_date": "1956-01-28T20:25:36.209Z",
-      "age": 65,
-      "phone": "+904726380730",
-      "picture_large": "https://randomuser.me/api/portraits/men/57.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/57.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Mathematics",
-      "bg_color": null,
-      "note": null
-    },
-    {
       "gender": "Female",
       "title": "Madame",
       "full_name": "Anouk Simon",
@@ -1246,34 +909,6 @@
       "note": null
     },
     {
-      "gender": "Female",
-      "title": "Ms",
-      "full_name": "آوینا سلطانی نژاد",
-      "city": "نیشابور",
-      "state": "همدان",
-      "country": "Iran",
-      "postcode": 66423,
-      "coordinates": {
-        "latitude": "7.6396",
-        "longitude": "-26.9170"
-      },
-      "timezone": {
-        "offset": "-8:00",
-        "description": "Pacific Time (US & Canada)"
-      },
-      "email": "awyn.sltnynjd@example.com",
-      "b_date": "1994-08-26T17:01:22.484Z",
-      "age": 27,
-      "phone": null,
-      "picture_large": "https://randomuser.me/api/portraits/women/81.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Statistics",
-      "bg_color": null,
-      "note": null
-    },
-    {
       "gender": "Male",
       "title": "Mr",
       "full_name": "Oscar Dupont",
@@ -1298,34 +933,6 @@
       "id": "INSEE1NNaN65034787 26",
       "favorite": false,
       "course": "Law",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
-      "title": "Ms",
-      "full_name": "مهدیس مرادی",
-      "city": "ارومیه",
-      "state": "فارس",
-      "country": "Iran",
-      "postcode": 84580,
-      "coordinates": {
-        "latitude": "45.7509",
-        "longitude": "75.8284"
-      },
-      "timezone": {
-        "offset": "+9:00",
-        "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
-      },
-      "email": "mhdys.mrdy@example.com",
-      "b_date": "1952-10-04T09:02:09.900Z",
-      "age": 69,
-      "phone": "+981509271245",
-      "picture_large": "https://randomuser.me/api/portraits/women/24.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/24.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Chemistry",
       "bg_color": null,
       "note": null
     },
@@ -1382,34 +989,6 @@
       "id": "BSN84507586",
       "favorite": false,
       "course": "Chess",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "gender": "Female",
-      "title": "Miss",
-      "full_name": "Beatrice Bergeron",
-      "city": "Sutton",
-      "state": "Alberta",
-      "country": "Canada",
-      "postcode": "G1J 5T2",
-      "coordinates": {
-        "latitude": "68.0346",
-        "longitude": "165.2673"
-      },
-      "timezone": {
-        "offset": "-4:00",
-        "description": "Atlantic Time (Canada), Caracas, La Paz"
-      },
-      "email": "beatrice.bergeron@example.com",
-      "b_date": "1957-01-28T03:46:41.370Z",
-      "age": 64,
-      "phone": null,
-      "picture_large": "https://randomuser.me/api/portraits/women/3.jpg",
-      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
-      "id": "null",
-      "favorite": false,
-      "course": "Mathematics",
       "bg_color": null,
       "note": null
     },

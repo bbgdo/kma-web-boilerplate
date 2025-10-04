@@ -27,7 +27,6 @@ const createTeacherCard = (user) => {
 
 const renderFavourites = (usersList) => {
     const container = document.querySelector(".pseudo-carousel-list");
-    console.log(container);
     if (!container) return;
     const favourites = usersList.filter((u) => u.favorite === true);
     container.innerHTML = favourites.map(createTeacherCard).join("");

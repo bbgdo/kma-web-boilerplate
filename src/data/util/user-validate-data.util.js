@@ -15,7 +15,9 @@ export const userValidateDataUtil = (data) => {
         changedIds.add(id);
         return null;
     };
-    const users = data.map((user) => {
+    const users = data
+        .filter(user => user.id !== 'null')
+        .map((user) => {
         user = {
             ...user,
             email: emailValidateUtil(user?.email) ? user?.email : markInvalid(user.id),
