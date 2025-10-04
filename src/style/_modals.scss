@@ -203,6 +203,12 @@
 .teacher-photo-modal {
   width: 320px;
   height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--alternative-color);
+  font-size: 38px;
+  font-weight: 500;
 }
 
 .teacher-name {

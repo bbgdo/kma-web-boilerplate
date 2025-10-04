@@ -4,7 +4,7 @@ import { initials } from '../util/initials.js';
 import { splitName } from '../util/split-name.js';
 
 const createTeacherCard = (user) => {
-    const pic = !isNull(user.picture_thumbnail)
+    const pic = !isNull(user?.picture_thumbnail)
         ? `<div class="teacher-photo-clipper"><img class="teacher-photo-avatar" src="${user.picture_thumbnail}" alt="teacher-photo"></div>`
         : `<div class="teacher-text-avatar"><span>${initials(user.full_name)}</span></div>`;
     const nameParsed = splitName(user.full_name);
