@@ -92,7 +92,7 @@
       "picture_large": null,
       "picture_thumbnail": null,
       "id": "FN19068929566",
-      "favorite": false,
+      "favorite": true,
       "course": "Art",
       "bg_color": "#dface7",
       "note": null
@@ -120,7 +120,7 @@
       "picture_large": "https://randomuser.me/api/portraits/women/67.jpg",
       "picture_thumbnail": null,
       "id": "FN02064618043",
-      "favorite": false,
+      "favorite": true,
       "course": "Computer Science",
       "bg_color": "#dface7",
       "note": "Old lady with a cats"
@@ -316,7 +316,7 @@
       "picture_large": "https://randomuser.me/api/portraits/women/80.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/80.jpg",
       "id": "HETUNaNNA760undefined",
-      "favorite": false,
+      "favorite": true,
       "course": "Law",
       "bg_color": null,
       "note": null
@@ -596,7 +596,7 @@
       "picture_large": "https://randomuser.me/api/portraits/women/92.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg",
       "id": "FN21117225647",
-      "favorite": false,
+      "favorite": true,
       "course": "Art",
       "bg_color": null,
       "note": null

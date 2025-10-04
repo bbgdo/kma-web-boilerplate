@@ -44,5 +44,9 @@ const renderTenTeachers = (usersList) => {
 };
 
 document.addEventListener("componentsLoaded", () => {
-    renderTenTeachers(usersValidated.users);
-})
+    const tryRender = () => {
+        const ok = renderTenTeachers(usersValidated.users);
+        if (!ok) setTimeout(tryRender, 50);
+    };
+    tryRender();
+});

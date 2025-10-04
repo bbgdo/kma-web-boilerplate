@@ -1,12 +1,13 @@
-import usersValidated from "../../data/users-validated.json" with { type: "json" };
 import { isNull } from 'lodash-es';
+import usersValidated from "../../data/users-validated.json" with { type: "json" };
+import { changeFavourite } from '../../api-mock/requests/change-favourite.mock-request.js';
 
 const createTeacherInfoModal = (user) => {
     const pic = !isNull(user?.picture_large)
         ? `<img src="${user.picture_large}" alt="teacher-photo-modal" class="teacher-photo-modal">`
         : `<div class="teacher-photo-modal">no photo</div>`
     const email = !isNull(user.email)
-        ? `<a href="mailto: ${user.email}">${user.email}</a>`
+        ? `<a href="mailto:${user.email}">${user.email}</a>`
         : `<span>no email</span>`;
     const favouriteButton = user.favorite
         ? `<button class="standard-button" id="mark-favourite" type="button">Unmark favourite</button>`
@@ -51,13 +52,18 @@ document.addEventListener('teacherInfo:open', (e) => {
     const modal = document.querySelector('.teacher-info-modal-body');
     const renderModal = () => {
         modal.innerHTML = createTeacherInfoModal(user);
-
-        // need a proper way to access "db"(json file) and update the user
         const favBtn = modal.querySelector('#mark-favourite');
         if (favBtn) {
-            favBtn.addEventListener('click', () => {
-                user.favorite = !user.favorite;
-                renderModal();
+            favBtn.addEventListener('click', async () => {
+                const newValue = !user.favorite;
+                try {
+                    await changeFavourite(user.id, newValue);
+                    user.favorite = newValue; // синхронізуємо runtime-стан
+                    renderModal();
+                    document.dispatchEvent(new CustomEvent('user:favouriteChanged', { detail: { id: user.id, value: newValue } }));
+                } catch (e) {
+                    console.error('Failed to update favourite', e);
+                }
             });
         }
     };
