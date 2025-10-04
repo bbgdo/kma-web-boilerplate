@@ -8,8 +8,8 @@ const createTeacherCard = (user) => {
         ? `<div class="teacher-photo-clipper"><img class="teacher-photo-avatar" src="${user.picture_large}" alt="teacher-photo"></div>`
         : `<div class="teacher-text-avatar"><span>${initials(user.full_name)}</span></div>`;
     const star = user.favorite
-        ? `<img class="teacher-star" src="/images/star.svg" alt="teacher-star">`
-        : `<img class="teacher-star" style="display: none;" src="/images/star.svg" alt="teacher-star">`;
+        ? `<img class="teacher-star" src="src/static/images/star.svg" alt="teacher-star">`
+        : `<img class="teacher-star" style="display: none;" src="src/static/images/star.svg" alt="teacher-star">`;
     const nameParsed = splitName(user.full_name);
 
     return `
@@ -32,7 +32,6 @@ const createTeacherCard = (user) => {
 
 const renderTenTeachers = (usersList) => {
     const container = document.querySelector(".top-teachers-list");
-    console.log(container);
     if (!container) return false;
     container.innerHTML = usersList
         .slice()
