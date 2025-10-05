@@ -1,7 +1,6 @@
 export const splitName = (str) => {
-    const parts = str.trim().split(/\s+/);
-    return {
-        firstname: parts[0] || "",
-        lastname: parts[1] || ""
-    };
+    if (str == null) {
+        return [];
+    }
+    return str.trim().split(/\s+/);
 };

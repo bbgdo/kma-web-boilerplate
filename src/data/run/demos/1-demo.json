@@ -82,33 +82,5 @@
     "course": "Chess",
     "bg_color": null,
     "note": null
-  },
-  {
-    "gender": "Female",
-    "title": "Ms",
-    "full_name": "آوینا سلطانی نژاد",
-    "city": "نیشابور",
-    "state": "همدان",
-    "country": "Iran",
-    "postcode": 66423,
-    "coordinates": {
-      "latitude": "7.6396",
-      "longitude": "-26.9170"
-    },
-    "timezone": {
-      "offset": "-8:00",
-      "description": "Pacific Time (US & Canada)"
-    },
-    "email": "awyn.sltnynjd@example.com",
-    "b_date": "1994-08-26T17:01:22.484Z",
-    "age": 27,
-    "phone": null,
-    "picture_large": "https://randomuser.me/api/portraits/women/81.jpg",
-    "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg",
-    "id": "null",
-    "favorite": false,
-    "course": "Statistics",
-    "bg_color": null,
-    "note": null
   }
 ]

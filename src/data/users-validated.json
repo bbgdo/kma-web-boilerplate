@@ -596,7 +596,7 @@
       "picture_large": "https://randomuser.me/api/portraits/women/92.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg",
       "id": "FN21117225647",
-      "favorite": true,
+      "favorite": false,
       "course": "Art",
       "bg_color": null,
       "note": null
@@ -1044,7 +1044,7 @@
       "picture_large": "https://randomuser.me/api/portraits/men/48.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg",
       "id": "SSN891-26-1846",
-      "favorite": false,
+      "favorite": true,
       "course": "Dancing",
       "bg_color": null,
       "note": null

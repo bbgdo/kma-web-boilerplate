@@ -15,7 +15,6 @@ export default defineConfig({
         {
             name: 'mock-api',
             configureServer(server) {
-                log('mock-api', 'active');
                 registerChangeFavourite(server);
             },
         },
