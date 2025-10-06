@@ -2,6 +2,7 @@ import usersValidated from "../../data/users-validated.json" with { type: "json"
 import { createTopTeacherCard } from './create-top-teacher-card.js';
 import { populateCountryOptions } from './create-country-options.js';
 import { usersFilterUtil } from '../../data/util/filter/users-filter.util.js';
+import { usersSearchUtil } from '../../data/util/filter/users-search.util.js';
 
 const renderTenTeachers = (usersList) => {
     const container = document.querySelector(".top-teachers-list");
@@ -16,19 +17,27 @@ const renderTenTeachers = (usersList) => {
     return true;
 };
 
-document.addEventListener("componentsLoaded", () => {
-    const tryRender = () => {
-        const ok = renderTenTeachers(usersValidated.users) && populateCountryOptions();
-        if (!ok) setTimeout(tryRender, 50);
-    };
-    tryRender();
-});
+let activeFilters = {};
+let activeSearch = "";
 
-const applyFilters = (filter) => {
-    renderTenTeachers(usersFilterUtil(usersValidated.users, filter));
+const applyAllFilters = () => {
+    let users = usersValidated.users.slice();
+    users = usersFilterUtil(users, activeFilters);
+    if (activeSearch.trim()) {
+        users = usersSearchUtil(users, activeSearch);
+    }
+
+    return renderTenTeachers(users) && populateCountryOptions();
 };
 
-
 document.addEventListener("filters:changed", (e) => {
-    applyFilters(e.detail);
+    activeFilters = e.detail || {};
+    applyAllFilters();
 });
+
+document.addEventListener("search:changed", (e) => {
+    activeSearch = e.detail || "";
+    applyAllFilters();
+});
+
+document.addEventListener("componentsLoaded", applyAllFilters);
