@@ -6,4 +6,4 @@ export const changeFavourite = async (id, value) => {
     });
     if (!resp.ok) throw new Error(await resp.text());
     return resp.json();
-}
+};

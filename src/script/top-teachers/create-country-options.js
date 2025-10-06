@@ -9,4 +9,4 @@ export const populateCountryOptions = () => {
     container.innerHTML = container.innerHTML + options.join('');
 
     return true;
-}
+};

@@ -32,4 +32,4 @@ export const registerChangeFavourite = (server, dataFile = 'src/data/users-valid
             res.end(JSON.stringify({ ok:false, error:String(err?.message || err) }));
         }
     });
-}
+};

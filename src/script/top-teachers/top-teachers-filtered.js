@@ -10,7 +10,7 @@ document.addEventListener("componentsLoaded", () => {
         const selectedPhoto = filtersContainer.querySelector('[name="only-with-photo"]').checked;
         let ageParsed = selectedAge;
         if (ageParsed === "all") {
-            ageParsed = {}
+            ageParsed = {};
         } else {
             ageParsed = ageParsed.split("-").map(Number);
             ageParsed = ageParsed.length === 2 ? { min: ageParsed[0], max: ageParsed[1] } : { min: ageParsed[0] };
