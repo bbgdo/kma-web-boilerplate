@@ -1104,6 +1104,20 @@
       "course": "Art",
       "bg_color": null,
       "note": null
+    },
+    {
+      "id": "cf69db54-d468-44ee-aa2e-d7d3661f3ba2",
+      "full_name": "Giga Goga",
+      "course": "math",
+      "country": "germany",
+      "city": "Koziatyn",
+      "email": "giga.goga@gmail.eu",
+      "phone": "+48537845111",
+      "gender": "female",
+      "note": "giga can be goga. goga will never be giga",
+      "favorite": false,
+      "picture_large": "https://singlecolorimage.com/get/308d7a/100x100",
+      "age": ""
     }
   ]
 }

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-export const registerChangeFavourite = (server, dataFile = 'src/data/users-validated.json') => {
+export const registerChangeFavouriteTeacher = (server, dataFile = 'src/data/users-validated.json') => {
     const dataPath = path.resolve(process.cwd(), dataFile);
 
     server.middlewares.use('/api/change-favourite', async (req, res, next) => {
