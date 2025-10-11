@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
+import { UserDataClass } from '../../data/class/user-data.class.js';
 
 const dataPath = path.resolve("src/data/users-validated.json");
 
@@ -22,7 +23,7 @@ export const registerAddTeacher = (server) => {
             const json = JSON.parse(fs.readFileSync(dataPath, "utf8"));
             const id = randomUUID();
 
-            const newTeacher = {
+            const newTeacher = new UserDataClass({
                 id,
                 full_name: data.full_name,
                 course: data.course ?? "",
@@ -33,9 +34,9 @@ export const registerAddTeacher = (server) => {
                 gender: data.gender ?? "",
                 note: data.note ?? "",
                 favorite: false,
-                picture_large: `https://singlecolorimage.com/get/${data.color.replace("#", "")}/100x100`,
+                picture_large: `https://singlecolorimage.com/get/${data.bg_color.replace("#", "")}/100x100`,
                 age: data.age ?? "",
-            };
+            });
 
             json.users.push(newTeacher);
             fs.writeFileSync(dataPath, JSON.stringify(json, null, 2), "utf8");

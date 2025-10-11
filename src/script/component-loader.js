@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', async () => {
             el.innerHTML = `<p style="color:red;">couldn't load${file}</p>`;
         }
     }
-    document.dispatchEvent(new Event('componentsLoaded'));
+    document.dispatchEvent(new Event('components:loaded'));
 });

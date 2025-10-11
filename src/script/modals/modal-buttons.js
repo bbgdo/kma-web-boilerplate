@@ -1,4 +1,4 @@
-document.addEventListener('componentsLoaded', () => {
+document.addEventListener('components:loaded', () => {
     const addTeacherModal = document.getElementById('add-teacher-modal');
     const teacherInfoModal = document.getElementById('teacher-info-modal');
     const addTeacherButtons = Array.from(document.getElementsByClassName('add-teacher-button'));

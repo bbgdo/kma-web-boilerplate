@@ -1,10 +1,10 @@
-export const initTopTeachersSearch = () => {
+document.addEventListener("components:loaded", () => {
     const form = document.querySelector(".search-bar");
     const input = document.getElementById("search-input");
     if (!form || !input) return false;
 
-    const emitSearch = (query) => {
-        document.dispatchEvent(new CustomEvent("search:changed", { detail: query }));
+    const emitSearch = (searchValue) => {
+        document.dispatchEvent(new CustomEvent("search:changed", { detail: searchValue }));
     };
 
     form.addEventListener("submit", (e) => {
@@ -12,12 +12,10 @@ export const initTopTeachersSearch = () => {
         emitSearch(input.value.trim());
     });
 
-    input.addEventListener("input", (e) => {
-        if (e.target.value === "") emitSearch("");
+    input.addEventListener("input", () => {
+        if (input.value === "") emitSearch("");
     });
 
     return true;
-};
-
-document.addEventListener("componentsLoaded", initTopTeachersSearch);
+});
 

@@ -1,4 +1,4 @@
-import { isNull } from 'lodash-es';
+import { isNil, isNull } from 'lodash-es';
 import { initials } from '../util/initials.js';
 import { splitName } from '../util/split-name.js';
 
@@ -9,7 +9,7 @@ export const createTopTeacherCard = (user) => {
     const star = user.favorite
         ? `<img class="teacher-star" src="src/static/images/star.svg" alt="teacher-star">`
         : `<img class="teacher-star" style="display: none;" src="src/static/images/star.svg" alt="teacher-star">`;
-    const nameParsed = splitName(user.full_name);
+    const nameParsed = !isNil(user.full_name) ? splitName(user.full_name) : ['no name', 'no name'];
 
     return `
     <div class="teacher-card" data-id="${user.id}">

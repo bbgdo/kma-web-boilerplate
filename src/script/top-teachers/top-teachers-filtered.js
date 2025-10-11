@@ -1,4 +1,4 @@
-document.addEventListener("componentsLoaded", () => {
+document.addEventListener("components:loaded", () => {
     const filtersContainer = document.querySelector(".top-teachers-filters");
     if (!filtersContainer) return;
 

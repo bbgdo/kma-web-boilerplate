@@ -1,6 +1,6 @@
 import { isNil, isString, keys } from 'lodash-es';
 
-const sort_fields = ['full_name', 'age', 'b_day', 'country'];
+const sort_fields = ['full_name', 'age', 'b_day', 'country', 'course', 'gender'];
 
 export const parseSort = (sort = {}) => {
     const ks = keys(sort);

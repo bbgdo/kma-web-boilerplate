@@ -1,4 +1,4 @@
-const cources = [
+export const courses = [
     'Mathematics',
     'Physics',
     'English',
@@ -13,4 +13,4 @@ const cources = [
     'Medicine'
 ];
 
-export const getRandomCourseUtil = () => cources[Math.floor(Math.random() * cources.length)];
+export const getRandomCourseUtil = () => courses[Math.floor(Math.random() * courses.length)];

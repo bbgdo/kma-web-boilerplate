@@ -2,7 +2,7 @@
   margin-bottom: 80px;
 }
 
-.pseudo-carousel {
+.carousel {
   --card-width: 240px;
   --gap: 24px;
   --btn-size: 44px;
@@ -11,7 +11,7 @@
   isolation: isolate;
 }
 
-.pseudo-carousel-list {
+.carousel-list {
   display: flex;
   flex-wrap: nowrap;
   gap: var(--gap);
@@ -25,7 +25,7 @@
   scroll-snap-type: x proximity;
 }
 
-.pseudo-carousel .teacher-card {
+.carousel .teacher-card {
   flex: 0 0 var(--card-width);
   scroll-snap-align: start;
   display: flex;
@@ -33,14 +33,14 @@
   justify-content: center;
 }
 
-.pseudo-carousel .teacher-avatar-wrapper img {
+.carousel .teacher-avatar-wrapper img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
   display: block;
 }
 
-.pseudo-carousel-list {
+.carousel-list {
   scrollbar-width: none;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
@@ -83,7 +83,7 @@
 
 /* Адаптив */
 @media (max-width: 768px) {
-  .pseudo-carousel {
+  .carousel {
     --card-width: 200px;
     --btn-size: 40px;
     --gap: 16px;
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: 480px) {
-  .pseudo-carousel {
+  .carousel {
     --card-width: 180px;
     --btn-size: 36px;
     --gap: 12px;

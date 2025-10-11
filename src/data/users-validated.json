@@ -680,7 +680,7 @@
       "picture_large": "https://randomuser.me/api/portraits/women/3.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
       "id": "FN03109315264",
-      "favorite": false,
+      "favorite": true,
       "course": "Law",
       "bg_color": null,
       "note": null
@@ -876,7 +876,7 @@
       "picture_large": "https://randomuser.me/api/portraits/men/68.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg",
       "id": "BSN59554936",
-      "favorite": false,
+      "favorite": true,
       "course": "Computer Science",
       "bg_color": null,
       "note": null
@@ -1044,7 +1044,7 @@
       "picture_large": "https://randomuser.me/api/portraits/men/48.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg",
       "id": "SSN891-26-1846",
-      "favorite": true,
+      "favorite": false,
       "course": "Dancing",
       "bg_color": null,
       "note": null
@@ -1109,7 +1109,7 @@
       "id": "cf69db54-d468-44ee-aa2e-d7d3661f3ba2",
       "full_name": "Giga Goga",
       "course": "math",
-      "country": "germany",
+      "country": "Germany",
       "city": "Koziatyn",
       "email": "giga.goga@gmail.eu",
       "phone": "+48537845111",
@@ -1118,6 +1118,146 @@
       "favorite": false,
       "picture_large": "https://singlecolorimage.com/get/308d7a/100x100",
       "age": ""
+    },
+    {
+      "gender": "male",
+      "title": null,
+      "full_name": "Chipin Andwell",
+      "city": "Gogremm",
+      "state": null,
+      "country": "Denmark",
+      "postcode": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "timezone": {
+        "offset": null,
+        "description": null
+      },
+      "email": "chipi@nany.com",
+      "b_date": null,
+      "age": 20,
+      "phone": "+380504217844",
+      "picture_large": "https://singlecolorimage.com/get/a02727/100x100",
+      "picture_thumbnail": null,
+      "id": "9c31c0cb-a7b0-4172-b3b4-0a8a6c58b7d1",
+      "favorite": false,
+      "course": "Chess",
+      "bg_color": null,
+      "note": "Chipin is a nice guy!"
+    },
+    {
+      "gender": "male",
+      "title": null,
+      "full_name": "Henry Max",
+      "city": "Sydney",
+      "state": null,
+      "country": "Australia",
+      "postcode": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "timezone": {
+        "offset": null,
+        "description": null
+      },
+      "email": "henry.max@mail.com",
+      "b_date": null,
+      "age": 26,
+      "phone": "+380504217844",
+      "picture_large": "https://singlecolorimage.com/get/366ca6/100x100",
+      "picture_thumbnail": null,
+      "id": "d9fe58e6-878b-407a-9416-579292303b10",
+      "favorite": false,
+      "course": "Dancing",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "male",
+      "title": null,
+      "full_name": "Many Men",
+      "city": "Giza",
+      "state": null,
+      "country": "United States",
+      "postcode": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "timezone": {
+        "offset": null,
+        "description": null
+      },
+      "email": "lilly@pop.io",
+      "b_date": null,
+      "age": 16,
+      "phone": "+380508401654",
+      "picture_large": "https://singlecolorimage.com/get/66bf36/100x100",
+      "picture_thumbnail": null,
+      "id": "23788735-8bc9-4fbe-a072-fd57e38643db",
+      "favorite": false,
+      "course": "Law",
+      "bg_color": null,
+      "note": "zxc"
+    },
+    {
+      "gender": "female",
+      "title": null,
+      "full_name": "Artem Zlobin",
+      "city": "Helsinki",
+      "state": null,
+      "country": "Finland",
+      "postcode": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "timezone": {
+        "offset": null,
+        "description": null
+      },
+      "email": "zlobin.a@boba.org",
+      "b_date": null,
+      "age": 25,
+      "phone": "+380504752413",
+      "picture_large": "https://singlecolorimage.com/get/a78bda/100x100",
+      "picture_thumbnail": null,
+      "id": "4b1594d4-22d8-4770-b5e5-fd58f97adf5d",
+      "favorite": true,
+      "course": "Dancing",
+      "bg_color": null,
+      "note": "Artem has some secrets 😉"
+    },
+    {
+      "gender": "female",
+      "title": null,
+      "full_name": "Male Female",
+      "city": "Female",
+      "state": null,
+      "country": "Finland",
+      "postcode": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "timezone": {
+        "offset": null,
+        "description": null
+      },
+      "email": "male@female.com",
+      "b_date": null,
+      "age": 43,
+      "phone": "+380504217844",
+      "picture_large": "https://singlecolorimage.com/get/000000/100x100",
+      "picture_thumbnail": null,
+      "id": "f6b6c016-87ec-4858-ae7b-c6d673efb3eb",
+      "favorite": false,
+      "course": "Chess",
+      "bg_color": null,
+      "note": ""
     }
   ]
 }
