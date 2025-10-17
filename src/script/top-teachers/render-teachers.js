@@ -1,14 +1,10 @@
 import { createTopTeacherCard } from './create-top-teacher-card.js';
 
-export const renderTeachers = (usersList, TEACHERS_AMOUNT) => {
+export const renderTeachers = (usersList, teacherAmount, initialIndex = 0) => {
     const container = document.querySelector(".top-teachers-list");
-    if (!container) return false;
+    if (!container) return;
     container.innerHTML = usersList
-        .slice()
-        .sort(() => Math.random() - 0.5)
-        .slice(0, TEACHERS_AMOUNT)
+        .slice(initialIndex * teacherAmount, (initialIndex * teacherAmount) + teacherAmount)
         .map(createTopTeacherCard)
         .join("");
-
-    return true;
 };

@@ -1,10 +1,12 @@
-document.addEventListener("components:loaded", () => {
+import { CustomEvents } from '../events.js';
+
+document.addEventListener(CustomEvents['components:loaded'], () => {
     const form = document.querySelector(".search-bar");
     const input = document.getElementById("search-input");
-    if (!form || !input) return false;
+    if (!form || !input) return;
 
     const emitSearch = (searchValue) => {
-        document.dispatchEvent(new CustomEvent("search:changed", { detail: searchValue }));
+        document.dispatchEvent(new CustomEvent(CustomEvents['search:changed'], { detail: searchValue }));
     };
 
     form.addEventListener("submit", (e) => {
@@ -15,7 +17,5 @@ document.addEventListener("components:loaded", () => {
     input.addEventListener("input", () => {
         if (input.value === "") emitSearch("");
     });
-
-    return true;
 });
 

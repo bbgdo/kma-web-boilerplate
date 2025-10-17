@@ -10,5 +10,5 @@ export const saveRandomUsers = async ({
 }) => {
     const outPath = path.join(path.dirname(fileURLToPath(baseUrl)), filename);
     await fs.writeFileSync(outPath, JSON.stringify(await fetchRandomUsers(usersAmount), null, 2), "utf-8");
-}
+};
 

@@ -1,4 +1,5 @@
 import usersValidated from "../../../data/users-validated.json" with { type: "json" };
+import { CustomEvents } from '../../events.js';
 
 export const openTeacherInfoModal = () => {
     const teacherCards = document.querySelectorAll(".top-teachers-list, .carousel-list");
@@ -14,7 +15,7 @@ export const openTeacherInfoModal = () => {
 
         const user = usersValidated.users.find(u => u.id === id);
         if (user) {
-            document.dispatchEvent(new CustomEvent("teacherInfo:open", { detail: { user } }));
+            document.dispatchEvent(new CustomEvent(CustomEvents['teacherInfo:open'], { detail: { user } }));
         }
     }));
-}
+};

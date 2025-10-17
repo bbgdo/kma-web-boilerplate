@@ -3,6 +3,7 @@ import { renderTable } from './render-table.js';
 import { renderTablePager } from './render-table-pager.js';
 import { tableChangeSort } from './table-change-sort.js';
 import { tableChangePage } from './table-change-page.js';
+import { CustomEvents } from '../events.js';
 
 const TABLE_ROWS_AMOUNT = 10;
 let currentPage = 1;
@@ -16,7 +17,7 @@ const state = {
     TABLE_ROWS_AMOUNT,
 };
 
-document.addEventListener("components:loaded", () => {
+document.addEventListener(CustomEvents['components:loaded'], () => {
     const section = document.querySelector(".statistics");
     if (!section) return;
     currentPage = 1;

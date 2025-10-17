@@ -3,8 +3,9 @@ import { populateCountryOptions } from './populate-country-options.js';
 import { populateCourseOptions } from './populate-course-options.js';
 import { UserDataClass } from '../../../data/class/user-data.class.js';
 import { addTeacher } from '../../../api-mock/requests/add-teacher.mock-request.js';
+import { CustomEvents } from '../../events.js';
 
-document.addEventListener("components:loaded", () => {
+document.addEventListener(CustomEvents['components:loaded'], () => {
     const modal = document.getElementById("add-teacher-modal");
     const form = modal?.querySelector(".add-teacher-form");
     if (!modal || !form) return;
@@ -36,7 +37,7 @@ document.addEventListener("components:loaded", () => {
             await addTeacher(userData);
             modal.style.display = "none";
             form.reset();
-            document.dispatchEvent(new CustomEvent("teacher:added", { detail: resp.user }));
+            document.dispatchEvent(new CustomEvent(CustomEvents['teacher:added'], { detail: resp.user }));
         } catch (err) {
             console.error(err);
         }

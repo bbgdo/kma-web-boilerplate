@@ -1,4 +1,6 @@
-document.addEventListener("components:loaded", () => {
+import { CustomEvents } from '../events.js';
+
+document.addEventListener(CustomEvents['components:loaded'], () => {
     const filtersContainer = document.querySelector(".top-teachers-filters");
     if (!filtersContainer) return;
 
@@ -26,7 +28,7 @@ document.addEventListener("components:loaded", () => {
     };
 
     const updateFilters = () => {
-        document.dispatchEvent(new CustomEvent("filters:changed", { detail: parseFilterOptions() }));
+        document.dispatchEvent(new CustomEvent(CustomEvents['filters:changed'], { detail: parseFilterOptions() }));
     };
 
     filtersContainer.addEventListener("change", updateFilters);

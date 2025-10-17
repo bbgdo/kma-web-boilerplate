@@ -1,4 +1,6 @@
-document.addEventListener('components:loaded', () => {
+import { CustomEvents } from '../events.js';
+
+document.addEventListener(CustomEvents['components:loaded'], () => {
     const addTeacherModal = document.getElementById('add-teacher-modal');
     const teacherInfoModal = document.getElementById('teacher-info-modal');
     const addTeacherButtons = Array.from(document.getElementsByClassName('add-teacher-button'));

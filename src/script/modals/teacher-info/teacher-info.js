@@ -1,8 +1,9 @@
 import { openTeacherInfoModal } from './open-teacher-info-modal.js';
 import { renderTeacherInfoModal } from './render-teacher-info-modal.js';
+import { CustomEvents } from '../../events.js';
 
-document.addEventListener('components:loaded', openTeacherInfoModal)
+document.addEventListener(CustomEvents['components:loaded'], openTeacherInfoModal);
 
-document.addEventListener('teacherInfo:open', (e) => {
+document.addEventListener(CustomEvents['teacherInfo:open'], (e) => {
     renderTeacherInfoModal(e.detail.user);
 });

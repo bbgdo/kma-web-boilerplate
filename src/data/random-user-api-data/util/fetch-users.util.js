@@ -14,5 +14,5 @@ export const fetchRandomUsers = async (usersAmount = 30) => {
     } catch (error) {
         console.error("Error on fetching random users:", error);
     }
-}
+};
 
