@@ -1,10 +1,10 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import usersValidated from './users-validated.json' with { type: 'json' };
-import { usersFilterUtil } from '../util/filter/users-filter.util.js';
-import { usersSortUtil } from '../util/filter/users-sort.util.js';
-import { usersSearchUtil } from '../util/filter/users-search.util.js';
-import { usersFilteredPercentUtil } from '../util/filter/users-filtered-percent.util.js';
+import { usersFilterUtil } from '../../util/filter/users-filter.util.js';
+import { usersSortUtil } from '../../util/filter/users-sort.util.js';
+import { usersSearchUtil } from '../../util/filter/users-search.util.js';
+import { usersFilteredPercentUtil } from '../../util/filter/users-filtered-percent.util.js';
 import { writeFile } from 'fs/promises';
 
 const demos = [];

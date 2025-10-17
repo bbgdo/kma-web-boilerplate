@@ -1,44 +1,11 @@
 {
   "changedIds": [
-    "fgesrg456dsf234c1",
     "FN19068929566",
     "FN02064618043",
-    "null",
-    "PPS2340626T",
-    "TFN505504341",
-    "SSN769-88-9330",
-    "HETUNaNNA013undefined",
-    "TFN386597027",
-    "AVS756.2023.5649.57",
-    "HETUNaNNA760undefined",
-    "DNI63719733-L",
-    "FN28045612378",
-    "FN09035238279",
-    "HETUNaNNA402undefined",
-    "CPR301293-2636",
-    "DNI04671126-X",
-    "SSN273-52-2514",
-    "INSEE1NNaN94113447 74",
-    "CPR261150-5443",
-    "FN21117225647",
-    "HETUNaNNA728undefined",
-    "BSN26586375",
-    "FN03109315264",
     "CPR150754-2317",
-    "PPS7847438T",
-    "INSEE1NNaN34394721 96",
-    "AVS756.6671.9396.83",
-    "DNI23347090-X",
     "SSN807-33-0374",
     "BSN59554936",
-    "SSN375-57-5719",
-    "INSEE1NNaN65034787 26",
-    "AVS756.7424.4611.08",
-    "BSN84507586",
-    "CPR310383-9581",
-    "SSN891-26-1846",
-    "CPR230364-8018",
-    "INSEE1NNaN84707229 61"
+    "CPR230364-8018"
   ],
   "users": [
     {
@@ -67,7 +34,7 @@
       "favorite": true,
       "course": "English",
       "bg_color": "#1f75cb",
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -95,7 +62,7 @@
       "favorite": true,
       "course": "Art",
       "bg_color": "#dface7",
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -151,7 +118,7 @@
       "favorite": false,
       "course": "Chess",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -179,7 +146,7 @@
       "favorite": false,
       "course": "Chess",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -207,7 +174,7 @@
       "favorite": false,
       "course": "Chess",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -235,7 +202,7 @@
       "favorite": false,
       "course": "Physics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -263,7 +230,7 @@
       "favorite": false,
       "course": "Art",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -291,7 +258,7 @@
       "favorite": false,
       "course": "Statistics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -319,7 +286,7 @@
       "favorite": false,
       "course": "Law",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -347,7 +314,7 @@
       "favorite": false,
       "course": "Mathematics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -375,7 +342,7 @@
       "favorite": false,
       "course": "English",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -403,7 +370,7 @@
       "favorite": false,
       "course": "Medicine",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -431,7 +398,7 @@
       "favorite": false,
       "course": "English",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -459,7 +426,7 @@
       "favorite": false,
       "course": "Computer Science",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -487,7 +454,7 @@
       "favorite": false,
       "course": "Art",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -515,7 +482,7 @@
       "favorite": false,
       "course": "Mathematics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -543,7 +510,7 @@
       "favorite": false,
       "course": "Law",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -571,7 +538,7 @@
       "favorite": false,
       "course": "Statistics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -599,7 +566,7 @@
       "favorite": false,
       "course": "Art",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -627,7 +594,7 @@
       "favorite": false,
       "course": "English",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -655,7 +622,7 @@
       "favorite": false,
       "course": "Dancing",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -683,7 +650,7 @@
       "favorite": false,
       "course": "Law",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -711,7 +678,7 @@
       "favorite": false,
       "course": "Mathematics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -739,7 +706,7 @@
       "favorite": false,
       "course": "Medicine",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -767,7 +734,7 @@
       "favorite": false,
       "course": "Physics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -795,7 +762,7 @@
       "favorite": false,
       "course": "Statistics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -823,7 +790,7 @@
       "favorite": false,
       "course": "Mathematics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -851,7 +818,7 @@
       "favorite": false,
       "course": "Chess",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -876,10 +843,10 @@
       "picture_large": "https://randomuser.me/api/portraits/men/68.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg",
       "id": "BSN59554936",
-      "favorite": true,
+      "favorite": false,
       "course": "Computer Science",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Female",
@@ -907,7 +874,7 @@
       "favorite": false,
       "course": "Law",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -932,10 +899,10 @@
       "picture_large": "https://randomuser.me/api/portraits/men/42.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg",
       "id": "INSEE1NNaN65034787 26",
-      "favorite": true,
+      "favorite": false,
       "course": "Law",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -963,7 +930,7 @@
       "favorite": false,
       "course": "Mathematics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -991,7 +958,7 @@
       "favorite": false,
       "course": "Chess",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -1019,7 +986,7 @@
       "favorite": false,
       "course": "Law",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -1047,7 +1014,7 @@
       "favorite": false,
       "course": "Dancing",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -1075,7 +1042,7 @@
       "favorite": false,
       "course": "Physics",
       "bg_color": null,
-      "note": null
+      "note": ""
     },
     {
       "gender": "Male",
@@ -1102,188 +1069,6 @@
       "id": "INSEE1NNaN84707229 61",
       "favorite": false,
       "course": "Art",
-      "bg_color": null,
-      "note": null
-    },
-    {
-      "id": "cf69db54-d468-44ee-aa2e-d7d3661f3ba2",
-      "full_name": "Giga Goga",
-      "course": "math",
-      "country": "Germany",
-      "city": "Koziatyn",
-      "email": "giga.goga@gmail.eu",
-      "phone": "+48537845111",
-      "gender": "female",
-      "note": "giga can be goga. goga will never be giga",
-      "favorite": false,
-      "picture_large": "https://singlecolorimage.com/get/308d7a/100x100",
-      "age": ""
-    },
-    {
-      "gender": "male",
-      "title": null,
-      "full_name": "Chipin Andwell",
-      "city": "Gogremm",
-      "state": null,
-      "country": "Denmark",
-      "postcode": null,
-      "coordinates": {
-        "latitude": null,
-        "longitude": null
-      },
-      "timezone": {
-        "offset": null,
-        "description": null
-      },
-      "email": "chipi@nany.com",
-      "b_date": null,
-      "age": 20,
-      "phone": "+380504217844",
-      "picture_large": "https://singlecolorimage.com/get/a02727/100x100",
-      "picture_thumbnail": null,
-      "id": "9c31c0cb-a7b0-4172-b3b4-0a8a6c58b7d1",
-      "favorite": false,
-      "course": "Chess",
-      "bg_color": null,
-      "note": "Chipin is a nice guy!"
-    },
-    {
-      "gender": "male",
-      "title": null,
-      "full_name": "Henry Max",
-      "city": "Sydney",
-      "state": null,
-      "country": "Australia",
-      "postcode": null,
-      "coordinates": {
-        "latitude": null,
-        "longitude": null
-      },
-      "timezone": {
-        "offset": null,
-        "description": null
-      },
-      "email": "henry.max@mail.com",
-      "b_date": null,
-      "age": 26,
-      "phone": "+380504217844",
-      "picture_large": "https://singlecolorimage.com/get/366ca6/100x100",
-      "picture_thumbnail": null,
-      "id": "d9fe58e6-878b-407a-9416-579292303b10",
-      "favorite": false,
-      "course": "Dancing",
-      "bg_color": null,
-      "note": ""
-    },
-    {
-      "gender": "male",
-      "title": null,
-      "full_name": "Many Men",
-      "city": "Giza",
-      "state": null,
-      "country": "United States",
-      "postcode": null,
-      "coordinates": {
-        "latitude": null,
-        "longitude": null
-      },
-      "timezone": {
-        "offset": null,
-        "description": null
-      },
-      "email": "lilly@pop.io",
-      "b_date": null,
-      "age": 16,
-      "phone": "+380508401654",
-      "picture_large": "https://singlecolorimage.com/get/66bf36/100x100",
-      "picture_thumbnail": null,
-      "id": "23788735-8bc9-4fbe-a072-fd57e38643db",
-      "favorite": false,
-      "course": "Law",
-      "bg_color": null,
-      "note": "zxc"
-    },
-    {
-      "gender": "female",
-      "title": null,
-      "full_name": "Artem Zlobin",
-      "city": "Helsinki",
-      "state": null,
-      "country": "Finland",
-      "postcode": null,
-      "coordinates": {
-        "latitude": null,
-        "longitude": null
-      },
-      "timezone": {
-        "offset": null,
-        "description": null
-      },
-      "email": "zlobin.a@boba.org",
-      "b_date": null,
-      "age": 25,
-      "phone": "+380504752413",
-      "picture_large": "https://singlecolorimage.com/get/a78bda/100x100",
-      "picture_thumbnail": null,
-      "id": "4b1594d4-22d8-4770-b5e5-fd58f97adf5d",
-      "favorite": false,
-      "course": "Dancing",
-      "bg_color": null,
-      "note": "Artem has some secrets 😉"
-    },
-    {
-      "gender": "female",
-      "title": null,
-      "full_name": "Male Female",
-      "city": "Female",
-      "state": null,
-      "country": "Finland",
-      "postcode": null,
-      "coordinates": {
-        "latitude": null,
-        "longitude": null
-      },
-      "timezone": {
-        "offset": null,
-        "description": null
-      },
-      "email": "male@female.com",
-      "b_date": null,
-      "age": 43,
-      "phone": "+380504217844",
-      "picture_large": "https://singlecolorimage.com/get/000000/100x100",
-      "picture_thumbnail": null,
-      "id": "f6b6c016-87ec-4858-ae7b-c6d673efb3eb",
-      "favorite": false,
-      "course": "Chess",
-      "bg_color": null,
-      "note": ""
-    },
-    {
-      "gender": "female",
-      "title": null,
-      "full_name": "Go As",
-      "city": "Helsinki",
-      "state": null,
-      "country": "United States",
-      "postcode": null,
-      "coordinates": {
-        "latitude": null,
-        "longitude": null
-      },
-      "timezone": {
-        "offset": null,
-        "description": null
-      },
-      "email": "ass@gma.com",
-      "b_date": null,
-      "age": 0,
-      "phone": "+380504217844",
-      "picture_large": "https://singlecolorimage.com/get/d06262/100x100",
-      "picture_thumbnail": null,
-      "id": "b11d37a5-9cea-470d-acc9-fd3a6dc8abd4",
-      "favorite": false,
-      "course": "Law",
       "bg_color": null,
       "note": ""
     }

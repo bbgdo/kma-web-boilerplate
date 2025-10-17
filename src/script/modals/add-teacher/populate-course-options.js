@@ -1,4 +1,4 @@
-import { courses } from '../../../data/offline-data/util/helper/get-random-course.util.js';
+import { courses } from '../../../data/util/helper/get-random-course.util.js';
 
 export const populateCourseOptions = () => {
     const container = document.querySelector("#teacher-speciality");

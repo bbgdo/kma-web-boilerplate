@@ -24,7 +24,7 @@ export const userValidateDataUtil = (data) => {
             phone: phoneValidateUtil(user?.phone, user?.country) ? user?.phone : markInvalid(user.id),
             age: isNumber(user?.age) ? user?.age : markInvalid(user.id),
             gender: startsWithCapitalChar(user?.gender) ? user?.gender : markInvalid(user.id),
-            note: startsWithCapitalChar(user?.note) ? user?.note : markInvalid(user.id),
+            note: startsWithCapitalChar(user?.note) || user?.note === '' ? user?.note : markInvalid(user.id),
             state: startsWithCapitalChar(user?.state) ? user?.state : markInvalid(user.id),
             city: startsWithCapitalChar(user?.city) ? user?.city : markInvalid(user.id),
             full_name: startsWithCapitalCharEveryWord(user?.full_name) ? user?.full_name : markInvalid(user.id),
