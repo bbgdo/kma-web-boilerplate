@@ -1,4 +1,4 @@
-import { yearsPassedUtil } from '../../../data/util/helper/years-passed.util.js';
+import { yearsPassedUtil } from '../../../data/offline-data/util/helper/years-passed.util.js';
 import { populateCountryOptions } from './populate-country-options.js';
 import { populateCourseOptions } from './populate-course-options.js';
 import { UserDataClass } from '../../../data/class/user-data.class.js';

@@ -1,4 +1,4 @@
-import { usersSortUtil } from '../../data/util/filter/users-sort.util.js';
+import { usersSortUtil } from '../../data/offline-data/util/filter/users-sort.util.js';
 import { createStatisticTableRow } from './create-statistic-table-row.js';
 
 export const renderTable = ({

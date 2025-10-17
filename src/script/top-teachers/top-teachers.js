@@ -1,7 +1,7 @@
 import usersValidated from "../../data/users-validated.json" with { type: "json" };
 import { populateCountryOptions } from './populate-country-options.js';
-import { usersFilterUtil } from '../../data/util/filter/users-filter.util.js';
-import { usersSearchUtil } from '../../data/util/filter/users-search.util.js';
+import { usersFilterUtil } from '../../data/offline-data/util/filter/users-filter.util.js';
+import { usersSearchUtil } from '../../data/offline-data/util/filter/users-search.util.js';
 import { renderTeachers } from './render-teachers.js';
 
 const TEACHERS_AMOUNT = 10;
