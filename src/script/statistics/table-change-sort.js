@@ -18,7 +18,7 @@ export const tableChangeSort = (section, state) => {
         state.sort = newSort;
 
         renderTable({
-            users: state.users,
+            users: state.getUsers(),
             sort: newSort,
             currentPage: state.currentPage,
             TABLE_ROWS_AMOUNT: state.TABLE_ROWS_AMOUNT,

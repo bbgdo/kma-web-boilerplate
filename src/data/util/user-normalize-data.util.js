@@ -1,6 +1,3 @@
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { writeFile } from 'fs/promises';
 import { isNil, isObject } from 'lodash-es';
 import { yearsPassedUtil } from './helper/years-passed.util.js';
 import { getRandomCourseUtil } from './helper/get-random-course.util.js';
@@ -114,9 +111,4 @@ export const userNormalizeDataUtil = (data) => {
         users.push(normalized);
     });
     return users;
-};
-
-export const userNormalizeAndSave = async (data, filename = 'users.json', baseUrl = import.meta.url) => {
-    const outPath = path.join(path.dirname(fileURLToPath(baseUrl)), filename);
-    await writeFile(outPath, JSON.stringify(userNormalizeDataUtil(data), null, 2));
 };

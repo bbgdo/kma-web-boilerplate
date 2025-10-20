@@ -1,4 +1,4 @@
-import usersValidated from "../../data/users-validated.json" with { type: "json" };
+import db from "/server/db.json" with { type: "json" };
 import { populateCountryOptions } from "./populate-country-options.js";
 import { usersFilterUtil } from "../../data/util/filter/users-filter.util.js";
 import { usersSearchUtil } from "../../data/util/filter/users-search.util.js";
@@ -11,7 +11,7 @@ let activeFilters = {};
 let activeSearch = '';
 
 const getUsers = () => {
-    let users = usersValidated.users.slice();
+    let users = db.users.slice();
     users = usersFilterUtil(users, activeFilters);
     return activeSearch.trim() ? usersSearchUtil(users, activeSearch) : users;
 };

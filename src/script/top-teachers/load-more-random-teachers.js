@@ -1,5 +1,12 @@
 import { CustomEvents } from '../events.js';
-import { addNUsers } from '../../data/random-user-api-data/util/add-n-users.util.js';
+
+const addNUsers = async (usersAmount = 10) => {
+    await fetch(`api/teachers/random`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ amount: usersAmount })
+    });
+};
 
 document.addEventListener(CustomEvents['components:loaded'], async () => {
     const button = document.querySelector('.load-some-random-teachers');

@@ -3,6 +3,4 @@ export const CustomEvents = {
     'filters:changed': 'filters:changed',
     'search:changed': 'search:changed',
     'teacherInfo:open': 'teacherInfo:open',
-    'user:favouriteChanged': 'user:favouriteChanged',
-    'teacher:added': 'teacher:added',
 };

@@ -1,6 +1,15 @@
 import { createTeacherInfoModal } from './create-teacher-info-modal.js';
-import { changeFavourite } from '../../../api-mock/requests/change-favourite.mock-request.js';
-import { CustomEvents } from '../../events.js';
+
+const changeFavourite = async (id, value) => {
+    const resp = await fetch("/api/change-favourite", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, value }),
+    });
+    if (!resp.ok) throw new Error(await resp.text());
+
+    return resp.json();
+};
 
 export const renderTeacherInfoModal = (user) => {
     const modal = document.querySelector('.teacher-info-modal-body');
@@ -13,8 +22,7 @@ export const renderTeacherInfoModal = (user) => {
             try{
                 await changeFavourite(user.id, newValue);
                 user.favorite = newValue;
-                renderTeacherInfoModal();
-                document.dispatchEvent(new CustomEvent(CustomEvents['user:favouriteChanged'], { detail: { id: user.id, value: newValue } }));
+                renderTeacherInfoModal(user);
             } catch(err) {
                 console.error(err);
             }

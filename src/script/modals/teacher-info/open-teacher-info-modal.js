@@ -1,4 +1,4 @@
-import usersValidated from "../../../data/users-validated.json" with { type: "json" };
+import db from "/server/db.json" with { type: "json" };
 import { CustomEvents } from '../../events.js';
 
 export const openTeacherInfoModal = () => {
@@ -13,7 +13,7 @@ export const openTeacherInfoModal = () => {
         const modal = document.getElementById("teacher-info-modal");
         if (modal) modal.style.display = "block";
 
-        const user = usersValidated.users.find(u => u.id === id);
+        const user = db.users.find(u => u.id === id);
         if (user) {
             document.dispatchEvent(new CustomEvent(CustomEvents['teacherInfo:open'], { detail: { user } }));
         }

@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint -c .eslintrc.cjs \"src/**/*.js\""
+    "lint": "eslint -c .eslintrc.cjs \"src/**/*.js\"",
+    "server": "node server/server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
@@ -15,7 +16,7 @@
     "eslint": "^7.18.0",
     "eslint-plugin-import": "^2.22.1",
     "i18n-iso-countries": "^7.14.0",
-    "json-server": "^1.0.0-beta.3",
+    "json-server": "^0.17.3",
     "libphonenumber-js": "^1.12.17",
     "lodash-es": "^4.17.21",
     "sass": "^1.92.1",

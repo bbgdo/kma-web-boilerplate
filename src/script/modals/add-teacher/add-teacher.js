@@ -2,8 +2,19 @@ import { yearsPassedUtil } from '../../../data/util/helper/years-passed.util.js'
 import { populateCountryOptions } from './populate-country-options.js';
 import { populateCourseOptions } from './populate-course-options.js';
 import { UserDataClass } from '../../../data/class/user-data.class.js';
-import { addTeacher } from '../../../api-mock/requests/add-teacher.mock-request.js';
 import { CustomEvents } from '../../events.js';
+
+const addTeacher = async (userData) => {
+    const resp = await fetch("/api/add-teacher", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(userData),
+    });
+    if (!resp.ok) throw new Error(await resp.text());
+
+    return resp.json();
+};
+
 
 document.addEventListener(CustomEvents['components:loaded'], () => {
     const modal = document.getElementById("add-teacher-modal");
@@ -37,7 +48,6 @@ document.addEventListener(CustomEvents['components:loaded'], () => {
             await addTeacher(userData);
             modal.style.display = "none";
             form.reset();
-            document.dispatchEvent(new CustomEvent(CustomEvents['teacher:added'], { detail: resp.user }));
         } catch (err) {
             console.error(err);
         }

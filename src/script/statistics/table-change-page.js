@@ -9,7 +9,7 @@ export const tableChangePage = (section, state) => {
             Number(btn.dataset.page),
             state.currentPage,
             state.TABLE_ROWS_AMOUNT,
-            state.users,
+            state.getUsers(),
             state.sort
         );
     });

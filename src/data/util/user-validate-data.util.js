@@ -5,9 +5,6 @@ import {
     startsWithCapitalChar,
     startsWithCapitalCharEveryWord
 } from './validate/string-fields-validate.util.js';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { writeFile } from 'fs/promises';
 
 export const userValidateDataUtil = (data) => {
     const changedIds = new Set();
@@ -35,9 +32,4 @@ export const userValidateDataUtil = (data) => {
     console.log(`Invalid fields were in: [${Array.from(changedIds).join(', ')}]`);
 
     return {changedIds: Array.from(changedIds), users: users};
-};
-
-export const userValidateDataAndSave = async (data, filename = 'users-validated.json', baseUrl = import.meta.url ) => {
-    const outPath = path.join(path.dirname(fileURLToPath(baseUrl)), filename);
-    await writeFile(outPath, JSON.stringify(userValidateDataUtil(data), null, 2));
 };
