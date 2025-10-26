@@ -48,12 +48,17 @@ server.post("/api/change-favourite", (req, res) => {
 
 server.post("/api/teachers/random", async (req, res) => {
     const amount = Number(req.body?.amount ?? 10);
-    const raw = await fetch(`https://randomuser.me/api?results=${amount}`).then(r => r.json());
+    const raw = await (await fetch(`https://randomuser.me/api?results=${amount}`)).json();
     const normalized = userNormalizeDataUtil(raw.results);
     const validated = userValidateDataUtil(normalized);
     router.db.get("users").push(...validated.users).write();
     router.db.get("changedIds").push(...validated.changedIds).write();
     res.json({ ok: true, added: validated.users.length });
+});
+
+server.get("/api/users", (req, res) => {
+    const users = router.db.get("users").value();
+    res.json({ users });
 });
 
 server.use(router);

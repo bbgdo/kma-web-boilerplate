@@ -16,12 +16,12 @@ const addTeacher = async (userData) => {
 };
 
 
-document.addEventListener(CustomEvents['components:loaded'], () => {
+document.addEventListener(CustomEvents['components:loaded'], async () => {
     const modal = document.getElementById("add-teacher-modal");
     const form = modal?.querySelector(".add-teacher-form");
     if (!modal || !form) return;
 
-    populateCountryOptions();
+    await populateCountryOptions();
     populateCourseOptions();
 
     form.addEventListener("submit", async (e) => {

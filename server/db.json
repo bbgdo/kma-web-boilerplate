@@ -4,7 +4,11 @@
     "TFN136618846",
     "SSN088-81-5430",
     "CPF754.579.064-77",
-    "CPR031197-1145"
+    "CPR031197-1145",
+    "SIN170618359",
+    "SSN294-15-3163",
+    "TFN848756213",
+    "SIN583213608"
   ],
   "users": [
     {
@@ -86,7 +90,7 @@
       "picture_large": "https://randomuser.me/api/portraits/men/43.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/43.jpg",
       "id": "DNI82344848-F",
-      "favorite": false,
+      "favorite": true,
       "course": "Art",
       "bg_color": null,
       "note": ""
@@ -1768,6 +1772,594 @@
       "id": "AVS756.4635.7639.67",
       "favorite": false,
       "course": "English",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Steve Davies",
+      "city": "Edinburgh",
+      "state": "Wiltshire",
+      "country": "United Kingdom",
+      "postcode": "L8 2BY",
+      "coordinates": {
+        "latitude": "-7.6016",
+        "longitude": "10.5196"
+      },
+      "timezone": {
+        "offset": "-7:00",
+        "description": "Mountain Time (US & Canada)"
+      },
+      "email": "steve.davies@example.com",
+      "b_date": "1954-08-17T20:29:33.101Z",
+      "age": 71,
+      "phone": "+441539428721",
+      "picture_large": "https://randomuser.me/api/portraits/men/64.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/64.jpg",
+      "id": "NINOYS 87 80 99 O",
+      "favorite": false,
+      "course": "Chemistry",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Mrs",
+      "full_name": "Kylie Coleman",
+      "city": "Sydney",
+      "state": "Australian Capital Territory",
+      "country": "Australia",
+      "postcode": 8328,
+      "coordinates": {
+        "latitude": "-37.2379",
+        "longitude": "140.2489"
+      },
+      "timezone": {
+        "offset": "-3:00",
+        "description": "Brazil, Buenos Aires, Georgetown"
+      },
+      "email": "kylie.coleman@example.com",
+      "b_date": "1982-11-12T04:16:02.145Z",
+      "age": 42,
+      "phone": "+61742896149",
+      "picture_large": "https://randomuser.me/api/portraits/women/32.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/32.jpg",
+      "id": "TFN975903288",
+      "favorite": false,
+      "course": "Art",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Mrs",
+      "full_name": "Valentina Roy",
+      "city": "Tours",
+      "state": "Aube",
+      "country": "France",
+      "postcode": 94687,
+      "coordinates": {
+        "latitude": "65.8982",
+        "longitude": "85.2053"
+      },
+      "timezone": {
+        "offset": "+10:00",
+        "description": "Eastern Australia, Guam, Vladivostok"
+      },
+      "email": "valentina.roy@example.com",
+      "b_date": "1950-06-17T06:15:03.838Z",
+      "age": 75,
+      "phone": "+33456283253",
+      "picture_large": "https://randomuser.me/api/portraits/women/19.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/19.jpg",
+      "id": "INSEE2500596906065 91",
+      "favorite": false,
+      "course": "Chess",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Miss",
+      "full_name": "Jeannine Mayr",
+      "city": "Marktheidenfeld",
+      "state": "Brandenburg",
+      "country": "Germany",
+      "postcode": 45039,
+      "coordinates": {
+        "latitude": "85.2933",
+        "longitude": "176.6416"
+      },
+      "timezone": {
+        "offset": "-3:00",
+        "description": "Brazil, Buenos Aires, Georgetown"
+      },
+      "email": "jeannine.mayr@example.com",
+      "b_date": "1995-03-01T17:21:44.435Z",
+      "age": 30,
+      "phone": "+492158800027",
+      "picture_large": "https://randomuser.me/api/portraits/women/20.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/20.jpg",
+      "id": "SVNR59 010395 M 594",
+      "favorite": false,
+      "course": "English",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Philippe Lo",
+      "city": "Stratford",
+      "state": "British Columbia",
+      "country": "Canada",
+      "postcode": "G2W 8E4",
+      "coordinates": {
+        "latitude": "-57.4387",
+        "longitude": "-58.8131"
+      },
+      "timezone": {
+        "offset": "+8:00",
+        "description": "Beijing, Perth, Singapore, Hong Kong"
+      },
+      "email": "philippe.lo@example.com",
+      "b_date": "1951-08-26T17:33:54.120Z",
+      "age": 74,
+      "phone": null,
+      "picture_large": "https://randomuser.me/api/portraits/men/94.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/94.jpg",
+      "id": "SIN170618359",
+      "favorite": false,
+      "course": "Statistics",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Ms",
+      "full_name": "Katherine Byrd",
+      "city": "Cincinnati",
+      "state": "Nevada",
+      "country": "United States",
+      "postcode": 72725,
+      "coordinates": {
+        "latitude": "89.7570",
+        "longitude": "-35.2490"
+      },
+      "timezone": {
+        "offset": "+11:00",
+        "description": "Magadan, Solomon Islands, New Caledonia"
+      },
+      "email": "katherine.byrd@example.com",
+      "b_date": "1961-10-02T11:51:08.909Z",
+      "age": 64,
+      "phone": null,
+      "picture_large": "https://randomuser.me/api/portraits/women/24.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/24.jpg",
+      "id": "SSN294-15-3163",
+      "favorite": false,
+      "course": "English",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Samuel Arnold",
+      "city": "Sunshine Coast",
+      "state": "New South Wales",
+      "country": "Australia",
+      "postcode": 7000,
+      "coordinates": {
+        "latitude": "-89.1543",
+        "longitude": "-176.8205"
+      },
+      "timezone": {
+        "offset": "+4:30",
+        "description": "Kabul"
+      },
+      "email": "samuel.arnold@example.com",
+      "b_date": "1949-05-14T09:17:48.125Z",
+      "age": 76,
+      "phone": null,
+      "picture_large": "https://randomuser.me/api/portraits/men/49.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/49.jpg",
+      "id": "TFN848756213",
+      "favorite": false,
+      "course": "Law",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Charles Park",
+      "city": "Souris",
+      "state": "Northwest Territories",
+      "country": "Canada",
+      "postcode": "P9K 1W2",
+      "coordinates": {
+        "latitude": "-67.9063",
+        "longitude": "-23.7381"
+      },
+      "timezone": {
+        "offset": "0:00",
+        "description": "Western Europe Time, London, Lisbon, Casablanca"
+      },
+      "email": "charles.park@example.com",
+      "b_date": "1998-03-14T20:22:52.691Z",
+      "age": 27,
+      "phone": null,
+      "picture_large": "https://randomuser.me/api/portraits/men/32.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/32.jpg",
+      "id": "SIN583213608",
+      "favorite": false,
+      "course": "Mathematics",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Ms",
+      "full_name": "Estela Nieto",
+      "city": "Motozintla",
+      "state": "Sinaloa",
+      "country": "Mexico",
+      "postcode": 32573,
+      "coordinates": {
+        "latitude": "-69.8753",
+        "longitude": "144.1176"
+      },
+      "timezone": {
+        "offset": "-4:00",
+        "description": "Atlantic Time (Canada), Caracas, La Paz"
+      },
+      "email": "estela.nieto@example.com",
+      "b_date": "1990-06-29T20:12:06.839Z",
+      "age": 35,
+      "phone": "+526014663723",
+      "picture_large": "https://randomuser.me/api/portraits/women/92.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg",
+      "id": "NSS49 58 28 0730 4",
+      "favorite": false,
+      "course": "Chess",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Ajinkya Babu",
+      "city": "Nagaon",
+      "state": "Lakshadweep",
+      "country": "India",
+      "postcode": 88789,
+      "coordinates": {
+        "latitude": "8.4421",
+        "longitude": "11.3214"
+      },
+      "timezone": {
+        "offset": "+5:00",
+        "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+      },
+      "email": "ajinkya.babu@example.com",
+      "b_date": "1997-06-17T11:08:23.703Z",
+      "age": 28,
+      "phone": "+919960923841",
+      "picture_large": "https://randomuser.me/api/portraits/men/28.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/28.jpg",
+      "id": "UIDAI867220220891",
+      "favorite": false,
+      "course": "Statistics",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Rasmus Ahola",
+      "city": "Juankoski",
+      "state": "Päijät-Häme",
+      "country": "Finland",
+      "postcode": 33504,
+      "coordinates": {
+        "latitude": "3.0809",
+        "longitude": "93.0381"
+      },
+      "timezone": {
+        "offset": "-12:00",
+        "description": "Eniwetok, Kwajalein"
+      },
+      "email": "rasmus.ahola@example.com",
+      "b_date": "1998-02-15T22:25:54.538Z",
+      "age": 27,
+      "phone": "+3588158107",
+      "picture_large": "https://randomuser.me/api/portraits/men/9.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg",
+      "id": "HETUNaNNA123undefined",
+      "favorite": false,
+      "course": "Statistics",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Pranav Manjunath",
+      "city": "Sikar",
+      "state": "Kerala",
+      "country": "India",
+      "postcode": 95350,
+      "coordinates": {
+        "latitude": "-10.8233",
+        "longitude": "-63.6793"
+      },
+      "timezone": {
+        "offset": "+2:00",
+        "description": "Kaliningrad, South Africa"
+      },
+      "email": "pranav.manjunath@example.com",
+      "b_date": "1988-02-26T05:58:57.684Z",
+      "age": 37,
+      "phone": "+919387043719",
+      "picture_large": "https://randomuser.me/api/portraits/men/74.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg",
+      "id": "UIDAI182871485957",
+      "favorite": false,
+      "course": "Art",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Randall Horton",
+      "city": "Woodbridge",
+      "state": "Maine",
+      "country": "United States",
+      "postcode": 39234,
+      "coordinates": {
+        "latitude": "-51.1294",
+        "longitude": "-175.1143"
+      },
+      "timezone": {
+        "offset": "+5:00",
+        "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+      },
+      "email": "randall.horton@example.com",
+      "b_date": "1972-07-19T00:25:17.615Z",
+      "age": 53,
+      "phone": "+12095020700",
+      "picture_large": "https://randomuser.me/api/portraits/men/29.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/29.jpg",
+      "id": "SSN294-24-8274",
+      "favorite": false,
+      "course": "Biology",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Mrs",
+      "full_name": "Indy Middel",
+      "city": "Eesterga",
+      "state": "Flevoland",
+      "country": "Netherlands",
+      "postcode": "9750 DV",
+      "coordinates": {
+        "latitude": "30.6522",
+        "longitude": "151.1495"
+      },
+      "timezone": {
+        "offset": "-11:00",
+        "description": "Midway Island, Samoa"
+      },
+      "email": "indy.middel@example.com",
+      "b_date": "1955-07-02T05:11:51.026Z",
+      "age": 70,
+      "phone": "+31689196526",
+      "picture_large": "https://randomuser.me/api/portraits/women/61.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg",
+      "id": "BSN87855441",
+      "favorite": false,
+      "course": "English",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Valentín Álvarez",
+      "city": "Pozuelo de Alarcón",
+      "state": "Comunidad de Madrid",
+      "country": "Spain",
+      "postcode": 98256,
+      "coordinates": {
+        "latitude": "-52.3258",
+        "longitude": "52.9592"
+      },
+      "timezone": {
+        "offset": "+4:00",
+        "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+      },
+      "email": "valentin.alvarez@example.com",
+      "b_date": "1945-10-07T04:22:25.429Z",
+      "age": 80,
+      "phone": "+34989442534",
+      "picture_large": "https://randomuser.me/api/portraits/men/42.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg",
+      "id": "DNI74424317-B",
+      "favorite": false,
+      "course": "English",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Louison Gautier",
+      "city": "Nice",
+      "state": "Aveyron",
+      "country": "France",
+      "postcode": 91886,
+      "coordinates": {
+        "latitude": "22.0351",
+        "longitude": "-107.6859"
+      },
+      "timezone": {
+        "offset": "-3:00",
+        "description": "Brazil, Buenos Aires, Georgetown"
+      },
+      "email": "louison.gautier@example.com",
+      "b_date": "1953-11-21T14:07:23.212Z",
+      "age": 71,
+      "phone": "+33156767348",
+      "picture_large": "https://randomuser.me/api/portraits/men/11.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/11.jpg",
+      "id": "INSEE1531021848491 18",
+      "favorite": false,
+      "course": "Chemistry",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Miss",
+      "full_name": "Angela Rhodes",
+      "city": "Lichfield",
+      "state": "West Midlands",
+      "country": "United Kingdom",
+      "postcode": "X2 5RS",
+      "coordinates": {
+        "latitude": "-26.4859",
+        "longitude": "55.7158"
+      },
+      "timezone": {
+        "offset": "+9:30",
+        "description": "Adelaide, Darwin"
+      },
+      "email": "angela.rhodes@example.com",
+      "b_date": "1950-06-13T22:14:16.298Z",
+      "age": 75,
+      "phone": "+441946723283",
+      "picture_large": "https://randomuser.me/api/portraits/women/28.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg",
+      "id": "NINOSR 06 73 40 Z",
+      "favorite": false,
+      "course": "Dancing",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Cameron Jackson",
+      "city": "Cork",
+      "state": "Wicklow",
+      "country": "Ireland",
+      "postcode": 77662,
+      "coordinates": {
+        "latitude": "-66.1753",
+        "longitude": "-41.9714"
+      },
+      "timezone": {
+        "offset": "+8:00",
+        "description": "Beijing, Perth, Singapore, Hong Kong"
+      },
+      "email": "cameron.jackson@example.com",
+      "b_date": "1949-12-19T17:48:22.055Z",
+      "age": 75,
+      "phone": "+353118274961",
+      "picture_large": "https://randomuser.me/api/portraits/men/41.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/41.jpg",
+      "id": "PPS3741106T",
+      "favorite": false,
+      "course": "Art",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Frank Zwaal",
+      "city": "Groesbeek",
+      "state": "Noord-Holland",
+      "country": "Netherlands",
+      "postcode": "4543 TD",
+      "coordinates": {
+        "latitude": "-11.5234",
+        "longitude": "124.5729"
+      },
+      "timezone": {
+        "offset": "+5:00",
+        "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+      },
+      "email": "frank.zwaal@example.com",
+      "b_date": "1980-03-28T11:07:21.081Z",
+      "age": 45,
+      "phone": "+31853115953",
+      "picture_large": "https://randomuser.me/api/portraits/men/13.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/13.jpg",
+      "id": "BSN06048944",
+      "favorite": false,
+      "course": "Mathematics",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Ms",
+      "full_name": "Abril Fonseca",
+      "city": "Atzitzintla",
+      "state": "Tabasco",
+      "country": "Mexico",
+      "postcode": 16274,
+      "coordinates": {
+        "latitude": "-22.2618",
+        "longitude": "-117.1055"
+      },
+      "timezone": {
+        "offset": "-6:00",
+        "description": "Central Time (US & Canada), Mexico City"
+      },
+      "email": "abril.fonseca@example.com",
+      "b_date": "1979-09-17T23:21:44.140Z",
+      "age": 46,
+      "phone": "+526818066710",
+      "picture_large": "https://randomuser.me/api/portraits/women/20.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/20.jpg",
+      "id": "NSS44 09 06 9557 8",
+      "favorite": false,
+      "course": "Art",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Dean Hanson",
+      "city": "Woodbridge",
+      "state": "California",
+      "country": "United States",
+      "postcode": 60701,
+      "coordinates": {
+        "latitude": "73.7110",
+        "longitude": "168.9824"
+      },
+      "timezone": {
+        "offset": "-7:00",
+        "description": "Mountain Time (US & Canada)"
+      },
+      "email": "dean.hanson@example.com",
+      "b_date": "1960-10-10T15:50:30.902Z",
+      "age": 65,
+      "phone": "+12167505187",
+      "picture_large": "https://randomuser.me/api/portraits/men/14.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/14.jpg",
+      "id": "SSN134-21-5294",
+      "favorite": false,
+      "course": "Law",
       "bg_color": null,
       "note": ""
     }

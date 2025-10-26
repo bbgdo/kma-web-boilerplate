@@ -1,7 +1,7 @@
 import { usersSortUtil } from '../../data/util/filter/users-sort.util.js';
 import { createStatisticTableRow } from './create-statistic-table-row.js';
 
-export const renderTable = ({
+export const renderTable = async ({
     getUsers,
     sort,
     currentPage,
@@ -9,7 +9,7 @@ export const renderTable = ({
 }) => {
     const tbody = document.querySelector(".statistics-table tbody");
     if (!tbody) return;
-    let displayUsers = [...getUsers()];
+    let displayUsers = await getUsers();
     displayUsers = usersSortUtil(displayUsers, sort);
 
     const start = (currentPage - 1) * TABLE_ROWS_AMOUNT;

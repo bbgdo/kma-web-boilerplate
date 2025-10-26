@@ -1,41 +1,37 @@
-import db from "/server/db.json" with { type: "json" };
 import { populateCountryOptions } from "./populate-country-options.js";
-import { usersFilterUtil } from "../../data/util/filter/users-filter.util.js";
-import { usersSearchUtil } from "../../data/util/filter/users-search.util.js";
 import { teachersChangePage } from "./teachers-change-page.js";
 import { goToTeachersPage } from "./go-to-teachers-page.js";
 import { CustomEvents } from '../events.js';
+import { fetchUsers } from '../util/fetch-users.util.js';
 
 const TEACHERS_AMOUNT = 10;
 let activeFilters = {};
 let activeSearch = '';
 
-const getUsers = () => {
-    let users = db.users.slice();
-    users = usersFilterUtil(users, activeFilters);
-    return activeSearch.trim() ? usersSearchUtil(users, activeSearch) : users;
+const getUsers = async () => {
+    return await fetchUsers(activeFilters, activeSearch);
 };
 
 const state = { currentPage: 1, TEACHERS_AMOUNT, getUsers };
 
-const render = () => {
-    state.currentPage = goToTeachersPage(1, state.currentPage, TEACHERS_AMOUNT, getUsers);
-    populateCountryOptions();
+const render = async () => {
+    state.currentPage = await goToTeachersPage(1, state.currentPage, TEACHERS_AMOUNT, getUsers);
+    await populateCountryOptions();
 };
 
-document.addEventListener(CustomEvents['components:loaded'], () => {
+document.addEventListener(CustomEvents['components:loaded'], async () => {
     const section = document.querySelector('.top-teachers');
     if (!section) return;
-    render();
+    await render();
     teachersChangePage(section, state);
 });
 
-document.addEventListener(CustomEvents['filters:changed'], (e) => {
+document.addEventListener(CustomEvents['filters:changed'], async (e) => {
     activeFilters = e.detail || {};
-    render();
+    await render();
 });
 
-document.addEventListener(CustomEvents['search:changed'], (e) => {
+document.addEventListener(CustomEvents['search:changed'], async (e) => {
     activeSearch = e.detail || '';
-    render();
+    await render();
 });

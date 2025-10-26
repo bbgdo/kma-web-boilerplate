@@ -1,4 +1,4 @@
-export const splitName = (str) => {
+export const splitNameUtil = (str) => {
     if (str == null) {
         return [];
     }

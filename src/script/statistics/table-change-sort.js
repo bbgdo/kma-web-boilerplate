@@ -2,7 +2,7 @@ import { toggleSort } from "./toggle-sort.js";
 import { renderTable } from "./render-table.js";
 
 export const tableChangeSort = (section, state) => {
-    section.addEventListener("click", (e) => {
+    section.addEventListener("click", async (e) => {
         const th = e.target.closest("th[data-sort]");
         if (!th) return;
 
@@ -17,8 +17,8 @@ export const tableChangeSort = (section, state) => {
 
         state.sort = newSort;
 
-        renderTable({
-            users: state.getUsers(),
+        await renderTable({
+            getUsers: state.getUsers,
             sort: newSort,
             currentPage: state.currentPage,
             TABLE_ROWS_AMOUNT: state.TABLE_ROWS_AMOUNT,

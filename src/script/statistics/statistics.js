@@ -1,11 +1,9 @@
-import db from "/server/db.json" with { type: "json" };
 import { renderTable } from './render-table.js';
 import { renderTablePager } from './render-table-pager.js';
 import { tableChangeSort } from './table-change-sort.js';
 import { tableChangePage } from './table-change-page.js';
 import { CustomEvents } from '../events.js';
-import { usersFilterUtil } from '../../data/util/filter/users-filter.util.js';
-import { usersSearchUtil } from '../../data/util/filter/users-search.util.js';
+import { fetchUsers } from '../util/fetch-users.util.js';
 
 const TABLE_ROWS_AMOUNT = 10;
 let currentPage = 1;
@@ -13,10 +11,8 @@ let sort = { sortBy: null, order: null };
 let activeFilters = {};
 let activeSearch = '';
 
-const getUsers = () => {
-    let users = db.users.slice();
-    users = usersFilterUtil(users, activeFilters);
-    return activeSearch.trim() ? usersSearchUtil(users, activeSearch) : users;
+const getUsers = async () => {
+    return await fetchUsers(activeFilters, activeSearch);
 };
 
 const state = {
@@ -26,30 +22,30 @@ const state = {
     TABLE_ROWS_AMOUNT,
 };
 
-const render = (section) => {
-    renderTable(state);
-    renderTablePager(getUsers().length, TABLE_ROWS_AMOUNT, currentPage);
+const render = async (section) => {
+    await renderTable(state);
+    renderTablePager((await getUsers()).length, TABLE_ROWS_AMOUNT, currentPage);
     tableChangePage(section, state);
     tableChangeSort(section, state);
 };
 
-document.addEventListener(CustomEvents['components:loaded'], () => {
+document.addEventListener(CustomEvents['components:loaded'], async () => {
     const section = document.querySelector(".statistics");
     if (!section) return;
     currentPage = 1;
-    render(section);
+    await render(section);
 });
 
-document.addEventListener(CustomEvents['filters:changed'], (e) => {
+document.addEventListener(CustomEvents['filters:changed'], async (e) => {
     const section = document.querySelector(".statistics");
     if (!section) return;
     activeFilters = e.detail || {};
-    render(section);
+    await render(section);
 });
 
-document.addEventListener(CustomEvents['search:changed'], (e) => {
+document.addEventListener(CustomEvents['search:changed'], async (e) => {
     const section = document.querySelector(".statistics");
     if (!section) return;
     activeSearch = e.detail || '';
-    render(section);
+    await render(section);
 });
