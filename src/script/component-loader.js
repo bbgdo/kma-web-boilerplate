@@ -1,3 +1,5 @@
+import { CustomEvents } from './events.js';
+
 document.addEventListener('DOMContentLoaded', async () => {
     const includes = document.querySelectorAll('[data-include]');
     for (const el of includes) {
@@ -9,5 +11,5 @@ document.addEventListener('DOMContentLoaded', async () => {
             el.innerHTML = `<p style="color:red;">couldn't load${file}</p>`;
         }
     }
-    document.dispatchEvent(new Event('components:loaded'));
+    document.dispatchEvent(new Event(CustomEvents['components:loaded']));
 });

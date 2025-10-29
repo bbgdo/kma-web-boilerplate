@@ -1,4 +1,5 @@
 import { createTeacherInfoModal } from './create-teacher-info-modal.js';
+import { CustomEvents } from '../../events.js';
 
 const changeFavourite = async (id, value) => {
     const resp = await fetch("/api/change-favourite", {
@@ -22,6 +23,7 @@ export const renderTeacherInfoModal = (user) => {
             try{
                 await changeFavourite(user.id, newValue);
                 user.favorite = newValue;
+                document.dispatchEvent(new CustomEvent(CustomEvents['favourites:changed']));
                 renderTeacherInfoModal(user);
             } catch(err) {
                 console.error(err);

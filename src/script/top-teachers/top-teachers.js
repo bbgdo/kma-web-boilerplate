@@ -14,8 +14,8 @@ const getUsers = async () => {
 
 const state = { currentPage: 1, TEACHERS_AMOUNT, getUsers };
 
-const render = async () => {
-    state.currentPage = await goToTeachersPage(1, state.currentPage, TEACHERS_AMOUNT, getUsers);
+const render = async (page = 1) => {
+    state.currentPage = await goToTeachersPage(page, state.currentPage, TEACHERS_AMOUNT, getUsers);
     await populateCountryOptions();
 };
 
@@ -34,4 +34,12 @@ document.addEventListener(CustomEvents['filters:changed'], async (e) => {
 document.addEventListener(CustomEvents['search:changed'], async (e) => {
     activeSearch = e.detail || '';
     await render();
+});
+
+document.addEventListener(CustomEvents['favourites:changed'], async () => {
+    await render(state.currentPage);
+});
+
+document.addEventListener(CustomEvents['teacher:added'], async () => {
+    await render(state.currentPage);
 });

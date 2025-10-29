@@ -9,7 +9,7 @@ export const parseFilter = (filter = {}) => {
     const genders = isArray(filter.genders)   ? filter.genders   : [];
     const favorites = isArray(filter.favorites) ? filter.favorites : [];
     const photos = isArray(filter.photos) ? filter.photos : [];
-
+ 
     const ar = filter.ageRange ?? {};
     const minNum = Number(ar.min);
     const maxNum = Number(ar.max);

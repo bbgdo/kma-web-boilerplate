@@ -118,7 +118,7 @@
       "picture_large": "https://randomuser.me/api/portraits/men/79.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/79.jpg",
       "id": "CPF681.561.905-20",
-      "favorite": false,
+      "favorite": true,
       "course": "Physics",
       "bg_color": null,
       "note": ""
@@ -146,7 +146,7 @@
       "picture_large": "https://randomuser.me/api/portraits/women/15.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/15.jpg",
       "id": "CPR230563-4390",
-      "favorite": false,
+      "favorite": true,
       "course": "Law",
       "bg_color": null,
       "note": ""
@@ -230,7 +230,7 @@
       "picture_large": "https://randomuser.me/api/portraits/men/95.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/95.jpg",
       "id": "TFN136618846",
-      "favorite": false,
+      "favorite": true,
       "course": "Medicine",
       "bg_color": null,
       "note": ""
@@ -2362,6 +2362,62 @@
       "course": "Law",
       "bg_color": null,
       "note": ""
+    },
+    {
+      "gender": "male",
+      "title": null,
+      "full_name": "Artem Kontik",
+      "city": "Zeighstz",
+      "state": null,
+      "country": "Switzerland",
+      "postcode": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "timezone": {
+        "offset": null,
+        "description": null
+      },
+      "email": "yon.pon@zon.con",
+      "b_date": null,
+      "age": 28,
+      "phone": "+380508455623",
+      "picture_large": "https://singlecolorimage.com/get/31af68/100x100",
+      "picture_thumbnail": null,
+      "id": "1f1c2577-276c-4db0-9ce2-4e7e95af6f66",
+      "favorite": false,
+      "course": "Law",
+      "bg_color": null,
+      "note": "non con"
+    },
+    {
+      "gender": "female",
+      "title": null,
+      "full_name": "Chunga Changa",
+      "city": "Poncho",
+      "state": null,
+      "country": "Serbia",
+      "postcode": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "timezone": {
+        "offset": null,
+        "description": null
+      },
+      "email": "zang.zong@zing.zon",
+      "b_date": null,
+      "age": 42,
+      "phone": "+48554845112",
+      "picture_large": "https://singlecolorimage.com/get/db5151/100x100",
+      "picture_thumbnail": null,
+      "id": "42ddcc68-b3b3-4c13-aef8-4dce042bd918",
+      "favorite": false,
+      "course": "Statistics",
+      "bg_color": null,
+      "note": "zizi"
     }
   ]
 }

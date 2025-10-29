@@ -46,6 +46,7 @@ document.addEventListener(CustomEvents['components:loaded'], async () => {
 
         try {
             await addTeacher(userData);
+            document.dispatchEvent(new CustomEvent(CustomEvents['teacher:added']));
             modal.style.display = "none";
             form.reset();
         } catch (err) {
