@@ -13,7 +13,9 @@
     "SIN970531851",
     "SSN653-23-4151",
     "PPS4043937T",
-    "SIN772063772"
+    "SIN772063772",
+    "SSN654-46-1302",
+    "SIN824181010"
   ],
   "users": [
     {
@@ -2423,6 +2425,286 @@
       "course": "Statistics",
       "bg_color": null,
       "note": "zizi"
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Lorenzo Roche",
+      "city": "Paris",
+      "state": "Eure-et-Loir",
+      "country": "France",
+      "postcode": 20296,
+      "coordinates": {
+        "latitude": "-18.1492",
+        "longitude": "-53.6772"
+      },
+      "timezone": {
+        "offset": "+6:00",
+        "description": "Almaty, Dhaka, Colombo"
+      },
+      "email": "lorenzo.roche@example.com",
+      "b_date": "1959-06-24T13:53:26.202Z",
+      "age": 66,
+      "phone": "+33100084883",
+      "picture_large": "https://randomuser.me/api/portraits/men/14.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/14.jpg",
+      "id": "INSEE1590579351407 74",
+      "favorite": false,
+      "course": "Computer Science",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Mrs",
+      "full_name": "Bharathy Mathew",
+      "city": "Pune",
+      "state": "Jharkhand",
+      "country": "India",
+      "postcode": 99851,
+      "coordinates": {
+        "latitude": "-29.2843",
+        "longitude": "-136.0508"
+      },
+      "timezone": {
+        "offset": "0:00",
+        "description": "Western Europe Time, London, Lisbon, Casablanca"
+      },
+      "email": "bharathy.mathew@example.com",
+      "b_date": "1959-03-02T17:54:19.644Z",
+      "age": 66,
+      "phone": "+918203956447",
+      "picture_large": "https://randomuser.me/api/portraits/women/44.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/44.jpg",
+      "id": "UIDAI901360857700",
+      "favorite": false,
+      "course": "Chemistry",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Victor Christensen",
+      "city": "Sandved",
+      "state": "Nordjylland",
+      "country": "Denmark",
+      "postcode": 86854,
+      "coordinates": {
+        "latitude": "-32.7006",
+        "longitude": "-49.6244"
+      },
+      "timezone": {
+        "offset": "-12:00",
+        "description": "Eniwetok, Kwajalein"
+      },
+      "email": "victor.christensen@example.com",
+      "b_date": "1952-05-11T17:34:30.436Z",
+      "age": 73,
+      "phone": "+4558453179",
+      "picture_large": "https://randomuser.me/api/portraits/men/40.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg",
+      "id": "CPR110552-2204",
+      "favorite": false,
+      "course": "Dancing",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Magnus Pedersen",
+      "city": "Silkeboeg",
+      "state": "Hovedstaden",
+      "country": "Denmark",
+      "postcode": 93917,
+      "coordinates": {
+        "latitude": "-28.6538",
+        "longitude": "43.6972"
+      },
+      "timezone": {
+        "offset": "+3:00",
+        "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+      },
+      "email": "magnus.pedersen@example.com",
+      "b_date": "1988-06-21T12:32:29.681Z",
+      "age": 37,
+      "phone": "+4547182211",
+      "picture_large": "https://randomuser.me/api/portraits/men/30.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/30.jpg",
+      "id": "CPR210688-5904",
+      "favorite": false,
+      "course": "Art",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Male",
+      "title": "Mr",
+      "full_name": "Seth Cunningham",
+      "city": "Bristol",
+      "state": "East Sussex",
+      "country": "United Kingdom",
+      "postcode": "BQ4 0GQ",
+      "coordinates": {
+        "latitude": "-16.9976",
+        "longitude": "15.7593"
+      },
+      "timezone": {
+        "offset": "-6:00",
+        "description": "Central Time (US & Canada), Mexico City"
+      },
+      "email": "seth.cunningham@example.com",
+      "b_date": "1975-02-18T14:36:40.829Z",
+      "age": 50,
+      "phone": "+441524200009",
+      "picture_large": "https://randomuser.me/api/portraits/men/86.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/86.jpg",
+      "id": "NINONR 41 51 94 J",
+      "favorite": false,
+      "course": "Physics",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Mrs",
+      "full_name": "Pearl Jackson",
+      "city": "Raleigh",
+      "state": "Montana",
+      "country": "United States",
+      "postcode": 45239,
+      "coordinates": {
+        "latitude": "82.0270",
+        "longitude": "-125.5272"
+      },
+      "timezone": {
+        "offset": "+1:00",
+        "description": "Brussels, Copenhagen, Madrid, Paris"
+      },
+      "email": "pearl.jackson@example.com",
+      "b_date": "1960-12-17T16:52:28.375Z",
+      "age": 64,
+      "phone": null,
+      "picture_large": "https://randomuser.me/api/portraits/women/20.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/20.jpg",
+      "id": "SSN654-46-1302",
+      "favorite": false,
+      "course": "Chess",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Mademoiselle",
+      "full_name": "Amelie Jean",
+      "city": "Broc",
+      "state": "Schwyz",
+      "country": "Switzerland",
+      "postcode": 8460,
+      "coordinates": {
+        "latitude": "-8.8177",
+        "longitude": "-28.3557"
+      },
+      "timezone": {
+        "offset": "-11:00",
+        "description": "Midway Island, Samoa"
+      },
+      "email": "amelie.jean@example.com",
+      "b_date": "1956-11-14T17:53:40.435Z",
+      "age": 68,
+      "phone": "+41789185278",
+      "picture_large": "https://randomuser.me/api/portraits/women/54.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/54.jpg",
+      "id": "AVS756.2171.3747.46",
+      "favorite": false,
+      "course": "Chemistry",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Miss",
+      "full_name": "Brielle Ennis",
+      "city": "Enterprise",
+      "state": "Nunavut",
+      "country": "Canada",
+      "postcode": "X3U 1Q8",
+      "coordinates": {
+        "latitude": "-67.5590",
+        "longitude": "-90.7482"
+      },
+      "timezone": {
+        "offset": "+4:30",
+        "description": "Kabul"
+      },
+      "email": "brielle.ennis@example.com",
+      "b_date": "1951-06-20T21:53:04.149Z",
+      "age": 74,
+      "phone": null,
+      "picture_large": "https://randomuser.me/api/portraits/women/6.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg",
+      "id": "SIN824181010",
+      "favorite": false,
+      "course": "Medicine",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Miss",
+      "full_name": "Elfriede Wollschläger",
+      "city": "Kempten (Allgäu)",
+      "state": "Sachsen-Anhalt",
+      "country": "Germany",
+      "postcode": 77991,
+      "coordinates": {
+        "latitude": "-72.0388",
+        "longitude": "-173.9254"
+      },
+      "timezone": {
+        "offset": "-5:00",
+        "description": "Eastern Time (US & Canada), Bogota, Lima"
+      },
+      "email": "elfriede.wollschlager@example.com",
+      "b_date": "1952-09-05T02:08:55.248Z",
+      "age": 73,
+      "phone": "+495909054156",
+      "picture_large": "https://randomuser.me/api/portraits/women/81.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg",
+      "id": "SVNR44 040952 W 802",
+      "favorite": false,
+      "course": "Statistics",
+      "bg_color": null,
+      "note": ""
+    },
+    {
+      "gender": "Female",
+      "title": "Ms",
+      "full_name": "Sofia Rasmussen",
+      "city": "Brøndby Strand",
+      "state": "Hovedstaden",
+      "country": "Denmark",
+      "postcode": 19817,
+      "coordinates": {
+        "latitude": "40.6401",
+        "longitude": "93.9296"
+      },
+      "timezone": {
+        "offset": "-12:00",
+        "description": "Eniwetok, Kwajalein"
+      },
+      "email": "sofia.rasmussen@example.com",
+      "b_date": "1971-09-20T12:53:23.893Z",
+      "age": 54,
+      "phone": "+4525754492",
+      "picture_large": "https://randomuser.me/api/portraits/women/47.jpg",
+      "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/women/47.jpg",
+      "id": "CPR200971-1030",
+      "favorite": false,
+      "course": "Computer Science",
+      "bg_color": null,
+      "note": ""
     }
   ]
 }

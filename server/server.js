@@ -6,6 +6,9 @@ import { userValidateDataUtil } from "../src/data/util/user-validate-data.util.j
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const jsonServer = require("json-server");
+import { getCountryGeoJSONByAlpha2 } from "geojson-places";
+import countries from "i18n-iso-countries";
+import enLocale from "i18n-iso-countries/langs/en.json" with { type: "json" };
 
 const dbFile = path.resolve("server/db.json");
 const server = jsonServer.create();
@@ -14,6 +17,8 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
+
+countries.registerLocale(enLocale);
 
 server.post("/api/add-teacher", (req, res) => {
     const id = randomUUID();
@@ -59,6 +64,29 @@ server.post("/api/teachers/random", async (req, res) => {
 server.get("/api/users", (req, res) => {
     const users = router.db.get("users").value();
     res.json({ users });
+});
+
+server.get("/api/get-country-coords", (req, res) => {
+    try {
+        const countryName = String(req.query.country || "").trim();
+        if (!countryName) {
+            return res.status(400).json({ ok: false, error: "Missing country name" });
+        }
+        const alpha2 = countries.getAlpha2Code(countryName, "en");
+        if (!alpha2) {
+            return res.status(404).json({ ok: false, error: "Country not found" });
+        }
+        const geo = getCountryGeoJSONByAlpha2(alpha2);
+        if (!geo || !geo.geometry || !geo.geometry.coordinates) {
+            return res.status(404).json({ ok: false, error: "Coordinates not found" });
+        }
+        const coords = geo.geometry.coordinates.slice().reverse();
+
+        res.json({ ok: true, country: countryName, alpha2, coords });
+    } catch (err) {
+        console.error("Country geocode error:", err);
+        res.status(500).json({ ok: false, error: "Internal server error" });
+    }
 });
 
 server.use(router);

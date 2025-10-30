@@ -1,5 +1,6 @@
 import { createTeacherInfoModal } from './create-teacher-info-modal.js';
 import { CustomEvents } from '../../events.js';
+import { renderTeacherMap } from './render-teacher-map.js';
 
 const changeFavourite = async (id, value) => {
     const resp = await fetch("/api/change-favourite", {
@@ -12,7 +13,7 @@ const changeFavourite = async (id, value) => {
     return resp.json();
 };
 
-export const renderTeacherInfoModal = (user) => {
+export const renderTeacherInfoModal = async (user) => {
     const modal = document.querySelector('.teacher-info-modal-body');
     modal.innerHTML = createTeacherInfoModal(user);
     const favBtn = modal.querySelector('#mark-favourite');
@@ -24,10 +25,12 @@ export const renderTeacherInfoModal = (user) => {
                 await changeFavourite(user.id, newValue);
                 user.favorite = newValue;
                 document.dispatchEvent(new CustomEvent(CustomEvents['favourites:changed']));
-                renderTeacherInfoModal(user);
+                await renderTeacherInfoModal(user);
             } catch(err) {
                 console.error(err);
             }
         });
     }
+
+    await renderTeacherMap(user);
 };
