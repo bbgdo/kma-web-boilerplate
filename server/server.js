@@ -22,6 +22,7 @@ countries.registerLocale(enLocale);
 
 server.post("/api/add-teacher", (req, res) => {
     const id = randomUUID();
+    console.log(req.body.b_date);
     const u = new UserDataClass({
         id,
         full_name: req.body?.full_name ?? "",
@@ -36,7 +37,8 @@ server.post("/api/add-teacher", (req, res) => {
         picture_large: req.body?.bg_color
             ? `https://singlecolorimage.com/get/${String(req.body.bg_color).replace("#","")}/100x100`
             : null,
-        age: req.body?.age ?? null
+        age: req.body?.age ?? null,
+        b_date: new Date(req.body.b_date),
     });
     router.db.get("users").push(u).write();
     res.json({ ok: true, user: u });

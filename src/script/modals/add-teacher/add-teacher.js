@@ -42,6 +42,7 @@ document.addEventListener(CustomEvents['components:loaded'], async () => {
             note: form["teacher-notes"].value.trim(),
             bg_color: color,
             age,
+            b_date: new Date(dob)
         });
 
         try {

@@ -1,4 +1,5 @@
 import { isNull } from 'lodash-es';
+import { daysToBD } from '../../util/days-to-bd.util.js';
 
 export const createTeacherInfoModal = (user) => {
     const pic = !isNull(user?.picture_large)
@@ -20,7 +21,8 @@ export const createTeacherInfoModal = (user) => {
             </div>
             <p class="teacher-subject-modal">${user.course}</p>
             <p>${user.city}, ${user.country}</p>
-            <p>${user?.age ?? 'no age'}, ${user.gender}</p>
+            <p>${user?.age ?? 'no age'}, ${daysToBD(user.b_date)} days to BD</p>
+            <p>${user.gender}</p>
             ${email}
             <p>${user?.phone ?? 'no phone'}</p>
         </div>
