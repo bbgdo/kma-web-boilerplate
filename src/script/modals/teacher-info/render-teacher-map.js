@@ -27,6 +27,7 @@ export const renderTeacherMap = async (user) => {
     if (hasCoords) {
         coords = [lat, lng];
     } else {
+        // TODO: fix this fallback
         const country = _.get(user, "country", "");
         if (country) {
             try {

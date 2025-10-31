@@ -89,3 +89,15 @@
     color: color-mix(in srgb, var(--tiffany-blue) 30%, var(--alternative-color));
   }
 }
+
+.statistics-table-wrapper {
+  display: block;
+}
+
+.statistics-chart-wrapper {
+  display: none;
+}
+
+.statistics-webdatarocks-wrapper {
+  display: none;
+}
