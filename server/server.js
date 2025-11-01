@@ -9,6 +9,7 @@ const jsonServer = require("json-server");
 import { getCountryGeoJSONByAlpha2 } from "geojson-places";
 import countries from "i18n-iso-countries";
 import enLocale from "i18n-iso-countries/langs/en.json" with { type: "json" };
+import centroid from '@turf/centroid';
 
 const dbFile = path.resolve("server/db.json");
 const server = jsonServer.create();
@@ -70,21 +71,26 @@ server.get("/api/users", (req, res) => {
 
 server.get("/api/get-country-coords", (req, res) => {
     try {
-        const countryName = String(req.query.country || "").trim();
-        if (!countryName) {
-            return res.status(400).json({ ok: false, error: "Missing country name" });
-        }
-        const alpha2 = countries.getAlpha2Code(countryName, "en");
-        if (!alpha2) {
-            return res.status(404).json({ ok: false, error: "Country not found" });
-        }
-        const geo = getCountryGeoJSONByAlpha2(alpha2);
-        if (!geo || !geo.geometry || !geo.geometry.coordinates) {
-            return res.status(404).json({ ok: false, error: "Coordinates not found" });
-        }
-        const coords = geo.geometry.coordinates.slice().reverse();
+        const raw = String(req.query.country || "").trim();
+        if (!raw) return res.status(400).json({ ok: false, error: "Missing country name" });
 
-        res.json({ ok: true, country: countryName, alpha2, coords });
+        const aliases = { UK: "United Kingdom", USA: "United States" };
+        const name = aliases[raw] || raw;
+
+        const alpha2 = /^[A-Za-z]{2}$/.test(name) ? name.toUpperCase() : countries.getAlpha2Code(name, "en");
+        if (!alpha2) return res.status(404).json({ ok: false, error: "Country not found" });
+
+        const geo = getCountryGeoJSONByAlpha2(alpha2);
+        const feature =
+            geo?.type === "Feature" ? geo :
+                geo?.type === "FeatureCollection" ? geo.features?.[0] : null;
+
+        if (!feature) return res.status(404).json({ ok: false, error: "GeoJSON not found" });
+
+        const center = centroid(feature);
+        const [lon, lat] = center.geometry.coordinates;
+
+        res.json({ ok: true, country: name, alpha2, coords: [lat, lon] });
     } catch (err) {
         console.error("Country geocode error:", err);
         res.status(500).json({ ok: false, error: "Internal server error" });

@@ -33,7 +33,8 @@ export const renderTeacherMap = async (user) => {
             try {
                 const data = await (await fetch(`/api/get-country-coords?country=${encodeURIComponent(country)}`)).json();
                 if (data.ok && Array.isArray(data.coords)) {
-                    coords = data.coords;
+                    coords = data.coords.map(Number);
+                    if (coords.some(isNaN)) coords = [0, 0];
                 }
             } catch (err) {
                 console.error("Error fetching country coords:", err);
