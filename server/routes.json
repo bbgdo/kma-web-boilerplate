@@ -1,5 +1,0 @@
-{
-  "/api/teachers*": "/users$1",
-  "/api/users*": "/users$1",
-  "/api/changed-ids": "/changedIds"
-}

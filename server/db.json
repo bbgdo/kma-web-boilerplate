@@ -69,7 +69,7 @@
       "picture_large": "https://randomuser.me/api/portraits/men/36.jpg",
       "picture_thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg",
       "id": "SVNR61 070552 W 166",
-      "favorite": false,
+      "favorite": true,
       "course": "Dancing",
       "bg_color": null,
       "note": ""
