@@ -4,6 +4,6 @@ import { CustomEvents } from '../../events.js';
 
 document.addEventListener(CustomEvents['components:loaded'], openTeacherInfoModal);
 
-document.addEventListener(CustomEvents['teacherInfo:open'], (e) => {
-    renderTeacherInfoModal(e.detail.user);
+document.addEventListener(CustomEvents['teacherInfo:open'], async (e) => {
+    await renderTeacherInfoModal(e.detail.user);
 });
