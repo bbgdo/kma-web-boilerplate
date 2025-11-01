@@ -10,17 +10,12 @@ export const renderWebdatarocksTable = (users) => {
     if (!users?.length) return;
     usersCache = users;
 
-    const columns = keys(users[0]);
     pivotInstance = new WebDataRocks({
         container: "#pivot-container",
         toolbar: true,
         report: {
             dataSource: {
-                data: users.map(u => {
-                    const obj = {};
-                    columns.forEach(col => (obj[col] = u[col]));
-                    return obj;
-                }),
+                data: users,
             },
             options: {
                 grid: {
@@ -64,14 +59,9 @@ export const changeToFlatTable = () => {
     flatTableButton.addEventListener("click", () => {
         if (!usersCache?.length) return;
 
-        const columns = keys(usersCache[0]);
         pivotInstance.setReport({
             dataSource: {
-                data: usersCache.map(u => {
-                    const obj = {};
-                    columns.forEach(col => (obj[col] = u[col]));
-                    return obj;
-                }),
+                data: usersCache,
             },
             options: {
                 grid: {
