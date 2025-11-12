@@ -4,21 +4,29 @@
         <div class="filter-group">
             <label for="filter-age">Age</label>
             <select id="filter-age" name="age">
-                <option value="18-31">18-31</option>
+                <option value="all">All</option>
+                <option value="18-29">18-29</option>
+                <option value="30-39">30-39</option>
+                <option value="40-49">40-49</option>
+                <option value="50-59">50-59</option>
+                <option value="70-99">70-99</option>
+                <option value="100">100-_</option>
             </select>
         </div>
         <span class="vertical-separator" aria-hidden="true"></span>
         <div class="filter-group">
-            <label for="filter-region">Sort by</label>
-            <select id="filter-region" name="region">
-                <option value="europe">Europe</option>
+            <label for="filter-country">Country</label>
+            <select id="filter-country" name="country">
+                <option value="all">All</option>
             </select>
         </div>
         <span class="vertical-separator" aria-hidden="true"></span>
         <div class="filter-group">
-            <label for="filter-sex">Sort by</label>
+            <label for="filter-sex">Sex</label>
             <select id="filter-sex" name="sex">
-                <option value="male">Male</option>
+                <option value="all">All</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
             </select>
         </div>
         <span class="vertical-separator" aria-hidden="true"></span>
@@ -32,90 +40,9 @@
             <label for="filter-only-favourites">Only favourites</label>
         </div>
     </div>
-    <div class="top-teachers-list">
-        <div class="teacher-card">
-            <div class="teacher-avatar-wrapper">
-                <img class="teacher-star" style="display: none;" src="/src/static/images/star.svg" alt="teacher-star">
-                <div class="teacher-photo-clipper"><img class="teacher-photo-avatar" src="/src/static/images/firstpersonPromo-mediumSquareAt3X.jpg" alt="teacher-photo"></div>
-            </div>
-            <div class="teacher-info">
-                <div class="teacher-name">
-                    <p>Ari</p>
-                    <p>Tang</p>
-                </div>
-                <p class="teacher-subject">Math</p>
-                <p class="teacher-country">Finland</p>
-            </div>
-        </div>
-        <div class="teacher-card">
-            <div class="teacher-avatar-wrapper">
-                <img class="teacher-star" style="display: none;" src="/src/static/images/star.svg" alt="teacher-star">
-                <div class="teacher-photo-clipper"><img class="teacher-photo-avatar" src="/src/static/images/firstpersonPromo-mediumSquareAt3X.jpg" alt="teacher-photo"></div>
-            </div>
-            <div class="teacher-info">
-                <div class="teacher-name">
-                    <p>Ari</p>
-                    <p>Tang</p>
-                </div>
-                <p class="teacher-subject">Math</p>
-                <p class="teacher-country">Finland</p>
-            </div>
-        </div>
-        <div class="teacher-card">
-            <div class="teacher-avatar-wrapper">
-                <img class="teacher-star" src="/src/static/images/star.svg" alt="teacher-star">
-                <div class="teacher-photo-clipper"><img class="teacher-photo-avatar" src="/src/static/images/firstpersonPromo-mediumSquareAt3X.jpg" alt="teacher-photo"></div>
-            </div>
-            <div class="teacher-info">
-                <div class="teacher-name">
-                    <p>Ari</p>
-                    <p>Tang</p>
-                </div>
-                <p class="teacher-subject">Math</p>
-                <p class="teacher-country">Finland</p>
-            </div>
-        </div>
-        <div class="teacher-card">
-            <div class="teacher-avatar-wrapper">
-                <img class="teacher-star" style="display: none;" src="/src/static/images/star.svg" alt="teacher-star">
-                <div class="teacher-photo-clipper"><img class="teacher-photo-avatar" src="/src/static/images/firstpersonPromo-mediumSquareAt3X.jpg" alt="teacher-photo"></div>
-            </div>
-            <div class="teacher-info">
-                <div class="teacher-name">
-                    <p>Ari</p>
-                    <p>Tang</p>
-                </div>
-                <p class="teacher-subject">Math</p>
-                <p class="teacher-country">Finland</p>
-            </div>
-        </div>
-        <div class="teacher-card">
-            <div class="teacher-avatar-wrapper">
-                <img class="teacher-star" src="/src/static/images/star.svg" alt="teacher-star">
-                <div class="teacher-text-avatar"><span>A.T</span></div>
-            </div>
-            <div class="teacher-info">
-                <div class="teacher-name">
-                    <p>Ari</p>
-                    <p>Tang</p>
-                </div>
-                <p class="teacher-subject">Math</p>
-                <p class="teacher-country">Finland</p>
-            </div>
-        </div>
-        <div class="teacher-card">
-            <div class="teacher-avatar-wrapper">
-                <img class="teacher-star" style="display: none;" src="/src/static/images/star.svg" alt="teacher-star">
-                <div class="teacher-photo-clipper"><img class="teacher-photo-avatar" src="/src/static/images/firstpersonPromo-mediumSquareAt3X.jpg" alt="teacher-photo"></div>
-            </div>
-            <div class="teacher-info">
-                <div class="teacher-name">
-                    <p>Ari</p>
-                    <p>Tang</p>
-                </div>
-                <p class="teacher-subject">Math</p>
-                <p class="teacher-country">Finland</p>
-            </div>
-        </div>
+    <div class="top-teachers-list"></div>
+    <div class="top-teachers-footer">
+        <div class="top-teachers-navigation"></div>
+        <button class="standard-button load-some-random-teachers" type="button">Load 10 more teachers</button>
     </div>
 </section>
